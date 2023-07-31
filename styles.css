@@ -1,0 +1,425 @@
+body,
+h1,
+p,
+ul {
+  margin: 2px;
+  padding: 50;
+}
+
+/* Heading Fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: bolder;
+}
+
+/* Body Text Font */
+p {
+  font-family: Dm Sans;
+}
+
+/* fonts
+DM Sans
+Roboto
+Poppins
+Noto Sans
+Ubuntu
+Open Sans
+Lato  */
+
+/* Header styles */
+header {
+  background-color: #3e777d;
+  color: #fff;
+  padding: 15px;
+  text-decoration-color: #f1f1f5;
+}
+
+#brand {
+  font-weight: bolder;
+  color: #f1f1f5;
+  font-size: 30px;
+}
+
+
+#hm a{
+  color: #f1f1f5;
+} 
+
+#mem a {
+  color: #f1f1f5;
+}
+
+#proj a {
+  color: #f1f1f5;
+}
+#abt a {
+  color: #f1f1f5;
+}
+
+.nav-item {
+  color: #f1f1f5;
+}
+
+#nav {
+  justify-content: end;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+nav ul {
+ list-style-type: none;
+ padding: 0 10px 0 0;
+ justify-content: end;
+}
+
+nav ul li {
+  margin-left: 20px;
+  padding: 0 5px 0 5px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+
+nav ul li a {
+ font-family: DM Sans;
+ font-size: 20px;
+ padding: 0px 5px 5px 5px;
+ text-decoration: none;
+ color: #fff;
+}
+
+#contact {
+ display: flex;
+ align-items: center;
+ display: inline-block;
+ background: linear-gradient(to right,rgb(220, 214, 214), #eba31d, #e6c6ed);
+ background-position: 50% 100%;
+ background-size: 100% 4px;
+ background-repeat: no-repeat;
+ transition: background-size 0.5s ease-in-out;
+ color: #000;
+}
+
+#contact:hover {
+  background-size: 0% 2px;
+}
+
+#contact a:hover {
+  color: #e8d127;
+}
+
+#contact a {
+ color: #f1f1f5;
+ font-family: DM Sans;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal;
+}
+
+/* Hero section styles */
+.hero {
+ height: fit-content;
+ padding: 0 50px 0 50px;
+ text-align: left;
+ flex-direction: column;
+ background: conic-gradient(from 191deg at 64.10% 45.65%, #88CCC8 3.3682815358042717deg, rgba(120, 214, 235, 0.9) 90.52163600921631deg, rgba(27, 144, 253, 0.4) 198.74999284744263deg, rgba(131, 160, 233, 0.21) 339.3749928474426deg);
+
+}
+
+.hero-content {
+  display: flex;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.flight {
+  color: #423FE5;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .text-container {
+    text-align: center;
+  }
+}
+
+.cta-button {
+ display: inline-block;
+ padding: 12px 20px;
+ color: #fff;
+ margin-left: 10px;
+ border-radius: 7px;
+ background: #423FE5;
+ font-family: DM Sans;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal;
+ font-size: 18px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+ text-decoration: none;
+}
+
+.hero img {
+  max-width: 100%;
+
+}
+
+.pic-container {
+  margin-top: 10px;
+  justify-content:end;
+  max-width: 350px;
+  max-height: 500px;
+  margin-left: 30px;
+  box-shadow: #324b4e;
+}
+
+/* Bootstrap to adjust the naviagetion bar according to different sizes */
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .cta-button {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .pic-container {
+      flex: 1;
+      text-align: right;
+      max-width: 600px;
+      max-height: 400px;
+      display: flex;
+  }
+}
+
+
+
+/* About us section styles */
+.About-us {
+  font-size: larger;
+  font-family: DM Sans;
+}
+
+/* .container {
+  display: flex;
+  width: 100%;
+} */
+
+.text-container {
+  margin-top: 40px;
+  padding: 30px 50px 30px 0;
+  flex: 1;
+  font-family: DM Sans;
+}
+
+#abtus {
+  text-align: center;
+  
+}
+
+#abtpara {
+ font-size: 20px;
+ align-content: space-between;
+ text-align: justify;
+ line-height: 27px;
+ word-spacing: 5px;
+}
+
+@media (max-width: 768px) {
+  #abtpara {
+    text-align: center;
+  }
+}
+
+.image-container {
+  max-width: 100%;
+  width: 50%;
+}
+
+.image-container img {
+  height: 400px;
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Projects section styles */
+#ReasearchPrj {
+ font-size: larger;
+ display: flex;
+ justify-content: center;
+ font-family: DM Sans;
+ font-size: 30px;
+ text-shadow: #333;
+ ;
+}
+
+
+.projects-section {
+  padding: 20px 0 50px 0;
+  background: rgba(41, 38, 200, 0.2);
+}
+
+.card {
+ margin: 25px;
+ border-radius: 15px;
+ background-color: #4d9ca0;
+ background: rgba(135, 223, 208, 0.5);
+ box-shadow: 16px 14px 10px 0px rgba(0, 0, 0, 0.25);
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ border-radius: 15px;
+ transition: transform 0.6s ease-in-out, background-color 0.5s ease-in-out, font-size 0.3s ease-in-out, color 0.3s;
+}
+
+.card:hover {
+  background-color: rgb(84, 133, 135);
+  transform: translateY(-5px);
+  font-size: larger;
+  color: white; 
+}
+
+.card-img-top {
+ background-color: white;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ padding: 5px 20px 0 20px;
+ height: 60%;
+ object-fit: cover;
+}
+
+.cta-text {
+  font-size: 15px;
+  text-decoration: none;
+  text-shadow: 10px #f1f1f5;
+}
+
+
+.card-img-top{
+ size: 50px;
+ width: 100%;
+ padding: 0 5px 0 5px;
+ height: auto;
+ margin-bottom: 5px;
+ border-radius: 100px;
+}
+
+.card h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-shadow: 2px #333;
+}
+
+.card-title{
+  color: #423FE5;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cta-text {
+ font-size: 15px;
+ text-decoration: none;
+ color: #333;
+ font-weight: bold;
+ cursor: pointer;
+ margin-top: 5px;
+ text-shadow: #333;
+}
+
+
+/* Footer styles */
+footer {
+  background-color: #324b4e;
+  color: #fff;
+}
+
+/* .container {
+  display: flex;
+  width: 100%;
+}  */
+
+.logofoot {
+  text-align: center;
+}
+
+/* #logo {
+  text-align: left;
+} */
+
+#logo p {
+  line-height: 30px;
+  padding: 10px 0 0 0;
+
+}
+
+#support {
+  text-align: center;
+}
+
+#support h1{
+  padding-bottom: 7px;
+}
+
+#support p{
+  line-height: 25px;
+}
+
+#contactus .social-icons {
+  margin-left: 10px;
+}
+
+#contactus .contacticons a {
+  color: #fff;
+  margin: 0 10px;
+  padding: 0 10px 20px 0;
+  font-size: 17px;
+  font-family: DM Sans;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 4px 0 4px;
+  font-size: 20px;
+  padding-left: 5px;
+}
