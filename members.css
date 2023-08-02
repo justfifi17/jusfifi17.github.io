@@ -33,6 +33,13 @@
  object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  .card img {
+    border-radius: 0;
+    object-fit: cover;
+  }
+}
+
 #directors {
  transition: transform 0.6s ease-in-out,
   background-color 0.5s ease-in-out,
