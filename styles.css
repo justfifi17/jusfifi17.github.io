@@ -215,7 +215,6 @@ nav ul li a {
 
   .pic-container {
       flex: 1;
-      text-align: right;
       max-width: 600px;
       max-height: 400px;
       display: flex;
@@ -315,14 +314,15 @@ nav ul li a {
 }
 
 .card-img-top {
- background-color: white;
- justify-content: center;
- align-items: center;
- border-radius: 50%;
- padding: 5px 20px 0 20px;
- height: 60%;
- object-fit: cover;
+  background-color: white;
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 50%;
+  padding: 5px 20px 0 20px;
+  /* height: 60%; */
+  object-fit: cover;
 }
+
 
 .cta-text {
   font-size: 15px;
@@ -332,12 +332,12 @@ nav ul li a {
 
 
 .card-img-top{
- size: 50px;
- width: 100%;
- padding: 0 5px 0 5px;
- height: auto;
- margin-bottom: 5px;
- border-radius: 100px;
+  /* size: 50px; */
+  width: 100%;
+  padding: 0 3px 0 3px;
+  height: auto;
+  margin-bottom: 5px;
+  border-radius: 100px;
 }
 
 .card h5 {
@@ -347,12 +347,14 @@ nav ul li a {
 }
 
 .card-title{
-  color: #423FE5;
+  font-weight: bolder;
 }
 
 .card p {
-  font-size: 16px;
+  font-size: 17px;
   margin-bottom: 10px;
+  line-height: 25px;
+  /* text-align: center; */
 }
 
 .cta-text {
