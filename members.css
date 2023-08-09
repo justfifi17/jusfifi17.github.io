@@ -1,4 +1,4 @@
-.main {
+main {
   background-color: white;
 }
 
@@ -9,7 +9,7 @@
 .card {
  box-shadow: 200 4px 8px rgba(28, 25, 25, 0.1)px;
  border-radius: 100px;
- height: 400px;
+ height: 450px;
  width: 250px;
  border: 3px solid black;
  flex-direction: column;
@@ -32,6 +32,7 @@
  height: 60%;
  object-fit: cover;
 }
+
 
 @media (max-width: 768px) {
   .card img {
