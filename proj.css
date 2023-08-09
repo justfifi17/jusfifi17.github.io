@@ -1,0 +1,32 @@
+body,
+h1,
+p,
+ul {
+ text-decoration: none;
+}
+.description {
+ font-size: 18px;
+ font-family: DM sans;
+ text-align: justify;
+
+}
+.navbar-custom-width {
+ font-size: medium;
+ font-weight: bolder;
+ font-family: DM Sans;
+}
+#one, #two {
+ font-size: 18px ;
+}
+@media (min-width: 992px) {
+ .navbar-custom-width {
+  margin-left: 70px;
+  margin-right: 70px;
+ }
+}
+
+@media (max-width: 991px) {
+ .navbar-custom-width {
+  width: 100%;
+ }
+}

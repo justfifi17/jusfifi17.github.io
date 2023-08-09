@@ -1,0 +1,53 @@
+main {
+ background-color: rgb(192,
+  169,
+  176,0.2);
+}
+
+#projc {
+ margin: 25px;
+ border-radius: 5px;
+ /* background-color: #4d9ca0;
+ background: rgba(135, 223, 208, 0.5); */
+ box-shadow: 16px 14px 10px 0px rgba(0, 0, 0, 0.25);
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ transition: transform 0.6s ease-in-out, background-color 0.5s ease-in-out, font-size 0.3s ease-in-out, color 0.3s;
+}
+
+.card:hover {
+ background-color: rgb(120,
+  128,
+  181, 0.75);
+ transform: translateY(-5px);
+ font-size: larger;
+ color: white;
+}
+
+.card h5 {
+ font-size: 20px;
+ padding: 10px;
+ text-shadow: 2px #333;
+}
+
+.card-t {
+ font-weight: bolder;
+}
+
+.card p {
+ font-size: 17px;
+ margin-bottom: 10px;
+ line-height: 25px;
+ /* text-align: center; */
+}
+
+.cta-txt {
+ font-size: 15px;
+ text-decoration: none;
+ color: #333;
+ font-weight: bold;
+ cursor: pointer;
+ margin-top: 5px;
+ text-shadow: #333;
+}
