@@ -28,7 +28,7 @@ main {
  justify-content: center;
  align-items: center;
  border-radius: 80%;
- padding: 5px 20px 0 20px;
+ padding: 5px 10px 0 10px;
  height: 60%;
  object-fit: cover;
 }
@@ -36,7 +36,7 @@ main {
 
 @media (max-width: 768px) {
   .card img {
-    border-radius: 0;
+    /* border-radius: 0; */
     object-fit: cover;
   }
 }
