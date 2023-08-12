@@ -2,8 +2,8 @@ body,
 h1,
 p,
 ul {
-  margin: 2px;
-  padding: 50;
+  margin: 0;
+  padding: 0;
 }
 
 /* Heading Fonts */
@@ -86,9 +86,9 @@ nav ul li {
   padding: 0 5px 0 5px;
 }
 
-nav ul li:first-child {
+/* nav ul li:first-child {
   margin-left: 0;
-}
+} */
 
 
 nav ul li a {
@@ -139,7 +139,9 @@ nav ul li a {
 }
 
 .hero-content {
+  padding-top: 50px;
   display: flex;
+
 }
 
 .text-container {
@@ -147,6 +149,7 @@ nav ul li a {
 }
 
 .hero h1 {
+  padding-top: 20px;
   font-size: 48px;
   margin-bottom: 20px;
 }
@@ -161,8 +164,27 @@ nav ul li a {
 }
 
 @media (max-width: 768px) {
-  .text-container {
+  .hero{
+    padding: 0;
+  }
+  .hero-content{
+    margin: 0;
+    padding: 0;
     text-align: center;
+  }
+  .hero-content h1{
+    font-size: 20px;
+  }
+  .text-container {
+    padding: 0;
+    text-align: center;
+    font-size: smaller;
+  }
+  .pic-container {
+    width: auto !important ;
+    align-content: center;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -192,7 +214,7 @@ nav ul li a {
   justify-content:end;
   max-width: 350px;
   max-height: 500px;
-  margin-left: 30px;
+  margin-left: 50px;
   box-shadow: #324b4e;
 }
 
@@ -208,16 +230,18 @@ nav ul li a {
     margin-bottom: 30px;
   }
 
-  .cta-button {
+  /* .cta-button {
     font-size: 16px;
     padding: 10px 15px;
-  }
+  } */
 
   .pic-container {
-      flex: 1;
-      max-width: 600px;
-      max-height: 400px;
-      display: flex;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    max-width: 600px;
+    max-height: 400px;
+    display: flex;
   }
 }
 
@@ -234,7 +258,7 @@ nav ul li a {
   width: 100%;
 } */
 
-.text-container {
+.abt-text-container {
   margin-top: 40px;
   padding: 30px 50px 30px 0;
   flex: 1;
@@ -257,6 +281,14 @@ nav ul li a {
 @media (max-width: 768px) {
   #abtpara {
     text-align: center;
+    font-size: 15px;
+    word-spacing: normal;
+  }
+  .abt-text-container {
+    padding: 0;
+  }
+  #readmorebtn{
+
   }
 }
 
