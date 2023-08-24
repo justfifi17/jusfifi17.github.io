@@ -19,14 +19,35 @@ ul {
  font-size: 18px ;
 }
 @media (min-width: 992px) {
- .navbar-custom-width {
+ .nav {
   margin-left: 70px;
   margin-right: 70px;
  }
 }
 
-@media (max-width: 991px) {
- .navbar-custom-width {
-  width: 100%;
- }
+
+.nav-tabs {
+ display: flex;
+ justify-content: center;
+ border-bottom: 2px solid black;
+ /* Add a border at the bottom of the tabs */
+ background-color: #f7f7f7;
+ /* Set a background color for the tab list */
 }
+
+/* Style the active tab */
+.nav-tabs .nav-item .nav-link.active {
+ background-color: aquamarine;
+ color: rgb(46, 45, 45);
+ /* Change this to the desired background color */
+ /* Optionally, you can specify a font color */
+ /* color: white; */
+}
+
+/* Style the inactive tabs */
+.nav-tabs .nav-item .nav-link {
+ background-color: rgb(233, 231, 231);
+ color: black;
+ /* Change this to the desired background color for inactive tabs */
+}
+
