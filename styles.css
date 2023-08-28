@@ -6,6 +6,7 @@ ul {
   padding: 0;
 }
 
+
 body {
   background: #482d81;
   height: 100vh;
@@ -18,7 +19,7 @@ body {
   width: 20px;
   z-index: -1;
   background-color: #5840a8;
-  /* box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff; */
+  box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
   animation: animate 20s linear infinite;
 }
 
@@ -167,6 +168,9 @@ header {
 #abt a {
   color: #f1f1f5;
 }
+#contact a {
+  color: #f1f1f5;
+}
 
 .nav-item {
   color: #f1f1f5;
@@ -206,7 +210,7 @@ nav ul li a {
  color: #fff;
 }
 
-#contact {
+.nav-link.active {
  display: flex;
  align-items: center;
  display: inline-block;
@@ -218,7 +222,7 @@ nav ul li a {
  color: #000;
 }
 
-#contact:hover {
+.nav-link.active:hover {
   background-size: 0% 2px;
 }
 
@@ -226,14 +230,14 @@ nav ul li a {
   color: #e8d127;
 }
 
-#contact a {
+/* #contact a {
  color: #f1f1f5;
  font-family: DM Sans;
  font-size: 20px;
  font-style: normal;
  font-weight: 500;
  line-height: normal;
-}
+} */
 
 /* Hero section styles */
 .hero {
@@ -248,7 +252,6 @@ nav ul li a {
 .hero-content {
   padding-top: 50px;
   display: flex;
-
 }
 
 .text-container {
@@ -298,6 +301,14 @@ nav ul li a {
     align-content: center !important;
   }
 }
+
+
+.socialicons img {
+  width: 30px;
+  height: 30px;
+  
+}
+
 
 .cta-button {
  display: inline-block;
