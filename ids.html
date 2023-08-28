@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDS</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="ids.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+
+  
+
+    <!-- jQuery Library -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <!-- jQuery Mobile CSS -->
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css"> -->
+  <!-- jQuery Mobile JavaScript -->
+  <!-- <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script> -->
+</head>
+<body>
+ <header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+   <div class="container">
+    <a href="#" class="navbar-brand" id="brand">Logo</a>
+ 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+     aria-label="Expand Navigation"><span class="navbar-toggler-icon"></span></button>
+ 
+    <div class="collapse navbar-collapse" id="nav">
+     <ul class="navbar-nav">
+      <li class="nav-item" id="hm">
+       <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item" id="abt">
+       <a href="about.html" class="nav-link">About</a>
+      </li>
+      <li class="nav-item" id="mem">
+       <a href="projects.html" class="nav-link active" aria-current="page" style="font-weight: bold;">Projects</a>
+      </li>
+      <li class="nav-item" id="proj">
+       <a href="members.html" class="nav-link ">Teams</a>
+      </li>
+ 
+      <li class="nav-item" id="contact">
+       <a href="contactUs.html" class="nav-link">Contact Us</a>
+      </li>
+ 
+     </ul>
+ 
+    </div>
+ 
+ 
+   </div>
+ 
+  </nav>
+ </header>
+
+ <main>
+  <section class="ids">
+   <h1 class="text-center text-sm" id="" style="padding: 40px 0 30px 0; ">Intrusion Detection System (IDS)</h1>
+   <div class="container-ids">
+    <div class="row">
+     <div class="col-md-6 text-sm" style="padding: 30px;">
+      <h3> Description </h3>
+      <p class="description">
+      Malicious attacks have become more complex and frequent in recent years as IoT-based critical infrastructures (ex.
+      Autonomous Transport System (ATS)) have grown larger and encompass different areas of industry. Within the IoT systems
+      themselves, the addition of various types of devices being monitored and used on the overall IoT critical infrastructure
+      has also grown and become more diverse [1]. Sensors for monitoring systems to large devices are all part of the IoTs
+      [2][3]. We have also seen a growth in intelligent transport systems (ITS) usage through the utilization of vehicular
+      network architecture. In the healthcare space, we have seen an increase in IoT medical devices. With all these
+      components now becoming prominent, there is a need for proper monitoring. The large array of devices that are
+      controlled, monitored, or used produces networks that are full of security breaches.
+      </p>
+      
+   
+     </div>
+     <!-- end of col -->
+     <div class="col-md-6">
+      <div class="image-container d-none d-sm-block">
+       <img src="ids.jpg" alt="ids-image" class="image-fluid" style="width: 500px; height: 300px; padding-top: 20px;">
+      </div>
+     </div>
+   
+    </div>
+
+
+    <div class="row">
+     <div class="col-md-5">
+      <div class="image-container d-none d-sm-block" style="padding-top: 40px;">
+       <img src="fl.png" alt="ids-image2" class="image-fluid" style="height: 300px;">
+      </div>
+      <div class="container mt-5">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="false" aria-controls="collapseOne">
+                Adaptive in Terms of..
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>1. An adaptive Intrusion Detection System (Adaptive-IDS), namely an Adaptively Supervised and Clustered Hybrid Intrusion
+                Detection System (ASCH-IDS) to classify the collected data from IoT devices. <br>
+                2. Gathered traffic is directed into two ML learning-based subsystems namely misuse detection subsystem
+                (signature-based) and anomaly detection subsystem. <br>
+                3. The former is effective in the detection of known attacks whereas the latter is effective in detecting unknown
+                attacks. <br>
+                4. The proposed scheme continuously keeps track of the Receiver Operating Characteristics (ROC) in each subsystem and
+                based on the improvement/degradation of the ROC behavior, it adaptively adjusts the proportion of aggregated data
+                forwarded to one of the two subsystems.
+</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                Hybrid in terms of..
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>1. Host-based IDS (IoT, AV, UAV) and Network-based IDS (NIDS). <br>
+                2. For both Anomaly and Signature-based detection. <br>
+                3. Works with all OS (Linux, Unix, Windows, and Mac).
+</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                What are the important features that make it novel?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>1. It can return an indicator of the trustworthiness of the data source. <br>
+                2. Detects both anomaly and Signature-based Intrusions. <br>
+                3. Notify the network administrator. <br>
+                4. Take some actions (ex. Block certain incoming traffic). <br>
+                5. HIDS can detect local events on the hosts and identify intrusions or attacks. <br>
+                6. NIDS can stop intrusions before they get into the network. <br>
+                7. It is a real-time intrusion detection system. <br>
+                8. Since most IDS systems generate huge amounts of alerts that are mostly false positives, our proposed system will
+                overcome this issue. <br>
+                9. Intrusion Detection Evaluation Dataset (Canadian Institute Cyber (CIC)-IDS2017) will be used for training and
+                testing. <br>
+                10. All clients will be continually checked to obey with zero trust. <br>
+</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br> 
+      <br>
+
+     </div>
+
+     <div class="col-md-7 text-sm" style="padding: 50px;">
+      <p class="description">
+        On the other hand, the advances in cellular, wireless, Bluetooth, or LAN are all distributed networks that give way to
+        connecting many IoT devices [4]. Malicious users will always take advantage of any weak point in the network, seeing as
+        IoT devices can be connected to different types of network infrastructure they become the prime access point for attack.
+        Specifically, in ATS, an IoT edge device that is connected both to Bluetooth and the main LAN infrastructure becomes an
+        easy gateway to infiltrate. <br> <br>
+        Cybersecurity and privacy of these networks are of prime concern for the deployment and the successful adoption in
+        critical infrastructures. Similarly, futuristic technologies such as machines, federated, and distributed Learning, and
+        Blockchain are revolutionizing the system security solutions for their endless benefits of enhancing the system’s
+        intelligence and speeding up the computation process.
+        Network Intrusion has the potential to cause long-term damage to critical infrastructures’ network security and
+        sensitive data.
+        The intrusion Detection System as a whole is a system that monitors network traffic for suspicious activity and issues
+        alert when such activity is discovered. It is a structure that manages many different subsystems such as transportation,
+        home, or business systems. Given this, many researchers develop IDS that are application-specific for the components in
+        the network they are trying to protect. IDS might scan a host and can be recognized as Host-based IDS (HIDS) or a
+        network-based IDS (NIDS) for malicious activity or any policy penetration.
+
+
+      </p>
+    </div>
+    
+    
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+      
+          <div class="content show" id="tab_1_content">
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="nav nav-tabs justify-content-center" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one"
+                      aria-selected="true">Members</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two"
+                      aria-selected="false">Publications</a>
+                  </li>
+                </ul>
+      
+                <div class="tab-content" id="tabsContent">
+                  <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+                    <div class="container" style="padding-left: 70px; margin-top: 10px;">
+                      <p> Lorem ipsum dolor <br> Fugiat, mollitia accusantium <br> Impedit nesciunt vel </p>
+                    </div>
+                  </div>
+      
+                  <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                    <div class="container" style="padding-left: 70px; margin-top: 10px;">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Fugiat, mollitia accusantium optio
+                        aspernatur
+                        tempore, commodi molestias architecto officiis iusto excepturi explicabo.
+                        <br> Impedit nesciunt vel et vitae consequatur iste error assumenda.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+</main>
+  <footer>
+    <div class="footer-container">
+      <!-- <div class="row">
+      <div class="col-md-4 text-sm">
+        <div class="logofoot">
+        <div id="logo">
+          <h1>Logo</h1>
+          <p>
+          Lorem ipsum dolor sit amet, <br> et nec nostrud eruditi. <br> Ius explicari omittantur at, <br> ea error singulis
+          mei, no vix .
+          </p>
+        </div>
+        </div>
+    
+      </div>
+    
+      <div class="col-md-4 text-center text-sm">
+        <div id="support">
+        <h1>Support</h1>
+        <p">
+          Privacy and Policy
+          <br>Terms & Conditions
+          <br>Contact us
+          </p>
+        </div>
+    
+      </div>
+    
+      <div class="col-md-4 text-center text-sm">
+        <div id="contactus">
+        <h1>Contact Us</h1>
+        <div class="contacticons">
+          <a href="#"><i class="fas fa-phone" style="padding: 10px 0 20px 0; "> 03982427645346</i></a>
+          <br>
+          <a href="#"><i class="fas fa-envelope"> bashgad@gmail.com</i></a>
+        </div>
+        <div class="social-icons" style="padding: 30px 50px 0 0;">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        </div>
+    
+      </div>
+    
+      </div>
+    
+    </div> -->
+    <div class="row">
+      <div class="col-sm-12 text-sm text-center">
+      <p>&copy; 2023 Projects Website. All rights reserved.</p>
+    
+      </div>
+    
+    </div>
+  
+  </footer>
+
+  <!-- <script>jQuery.noConflict();</script> -->
+  <script src="js/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
