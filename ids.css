@@ -39,8 +39,8 @@ ul {
 
 /* Style the active tab */
 .nav-tabs .nav-item .nav-link.active {
- background-color:rgb(144, 192, 218);
- color: rgb(46, 45, 45);
+ background-color:rgb(104, 186, 230, 0.6);
+ color: black;
  /* Change this to the desired background color */
  /* Optionally, you can specify a font color */
  /* color: white; */
