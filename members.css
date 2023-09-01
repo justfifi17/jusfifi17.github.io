@@ -1,5 +1,5 @@
 main {
-  background-color: white;
+  background-color: rgba(72, 158, 233, 0.2);
 }
 
 .row {
@@ -20,7 +20,7 @@ main {
  color:white;
  font-size: larger;
  transform: translateY(-5px);
- background-color:rgb(160, 153, 121);
+ background-color:rgb(220, 175, 160);
 }
 
 .card img {
@@ -48,11 +48,6 @@ main {
   color 0.3s;
 
 }
-#directors .card:hover {
- color: white;
- font-size: larger;
- transform: translateY(-5px);
- background-color: rgb(220, 175, 160);
-}
+
 
 
