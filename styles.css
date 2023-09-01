@@ -313,6 +313,7 @@ nav ul li a {
     align-content: center !important;
     text-align: center;
     align-items: center;
+    padding-bottom: 15px;
   }
 }
 
