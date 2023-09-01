@@ -76,8 +76,10 @@
           <div class="hero-content">
             <div class="text-container">
               <h1 class="display-4 text-sm">Dr. Safa Otoum <br> <span class="flight">Ph.D | P.Eng</span></h1>
-        
-              <p class="lead d-none d-sm-block reduce-content">Data Scientist | Researcher | Assistant Professor | IEEE Member | ACM Member</p>
+              <div class="typing-container">
+                <p id="typing-text">Data Scientist | Researcher | Assistant Professor | IEEE Member | ACM Member</p>
+              </div>
+              <!-- <p class="lead d-none d-sm-block reduce-content">Data Scientist | Researcher | Assistant Professor | IEEE Member | ACM Member</p> -->
               <!-- <a href="projects.html" class="cta-button">Projects</a> -->
             </div>
           </div>
@@ -159,13 +161,13 @@
 <!-- Projects Sections of Homepage -->
   <section class="projects-section">
     <h2 id="ReasearchPrj" style="padding-top: 20px;">Activities</h2>
-    <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-1 g-2 align-items-stretch" style="padding: 20px 0 20px 0;">
+    <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-1 g-2" style="padding: 20px 0 20px 0;">
       <div class="col">
         <div class="card">
           <div class="card-body">
             
             <h5 class="card-title">Teaching</h5>
-            <p class="card-text">As an esteemed faculty member at Zayed University, I take pride in       preparing students for success in the areas of Wireless Sensor Networks, Computer Network Technologies, Information and Computer Security, Data Science, Blockchain Applications, and Distributed Systems</p>
+            <p class="card-text ">As an esteemed faculty member at Zayed University, I take pride in       preparing students for success in the areas of Wireless Sensor Networks, Computer Network Technologies, Information and Computer Security, Data Science, Blockchain Applications, and Distributed Systems</p>
             <br>
             <!-- <p><a href="#" class="cta-text">Dive In </a></p> -->
           </div>
@@ -349,6 +351,30 @@
       // Set the height of all cards to the maximum height
       $('.card').css('height', maxHeight + 'px');
     });
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const textToType = "Data Scientist | Researcher | Assistant Professor | IEEE Member | ACM Member";
+        const typingText = document.getElementById("typing-text");
+        let charIndex = 0;
+
+        function typeCharacter() {
+          if (charIndex < textToType.length) {
+            typingText.textContent += textToType.charAt(charIndex);
+            charIndex++;
+            setTimeout(typeCharacter, 70); 
+          }
+        }
+
+        // Clear the initial content of the element
+        typingText.textContent = "";
+
+        // Start typing animation
+        typeCharacter();
+      });
+
+      
+
   </script>
 
 </body>
