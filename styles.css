@@ -372,6 +372,13 @@ nav ul li a {
   
 }
 
+@media (max-width: 768px) {
+  #typing-text{
+    text-align: center;
+  }
+  
+}
+
 /* @keyframes typing {
   from {
     width: 0;
