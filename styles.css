@@ -231,9 +231,9 @@ nav ul li a {
   background-size: 0% 2px;
 }
 
-/* #contact a:hover {
+#contact a:hover {
   color: #e8d127;
-} */
+}
 
 /* #contact a {
  color: #f1f1f5;
@@ -277,10 +277,10 @@ nav ul li a {
   color: #423FE5;
 }
 
-.hero p {
+/* .hero p {
   font-size: 24px;
   margin-bottom: 40px;
-}
+} */
 
 .pic-container {
   justify-content: right;
@@ -354,6 +354,50 @@ nav ul li a {
   max-height: 500px;
   margin-left: 50px;
   box-shadow: #324b4e;
+}
+
+.typing-container {
+  text-align: left;
+}
+
+#typing-text {
+  display: inline-block;
+  white-space:pre-wrap;
+  border-right: 1px solid #000;
+  /* Add a blinking cursor effect */
+  /* animation: typing 5s steps(40, end), blink-caret 1s step-end infinite; */
+  font-size: 24px;
+  margin-bottom: 40px;
+
+  
+}
+
+/* @keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 90%;
+  }
+    from {
+    width: 0;
+  }
+
+  to {
+    width: 90%;
+  }
+} */
+
+@keyframes blink-caret {
+
+  from, to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #000;
+  }
 }
 
 /* Bootstrap to adjust the naviagetion bar according to different sizes */
