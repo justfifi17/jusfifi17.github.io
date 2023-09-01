@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+ .container-lab{
+  padding: 2px;
+  text-align: center;
+}
+.image-container p {
+ padding: 0;
+ width: 0;
+ text-align: center;
+}
+#mission {
+ padding:0 ;
+}
+
+#mission p {
+ padding: 5px;
+}
+
+#values {
+ padding:0;
+}
+
+#values p {
+ padding: 5px;
+}
+
+}
