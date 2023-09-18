@@ -49,5 +49,22 @@ main {
 
 }
 
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height:fit-content;
+  z-index: -1;
+
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  #particles-js {
+    display: none;
+  }
+}
+
 
 
