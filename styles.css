@@ -7,97 +7,6 @@ ul {
 }
 
 
-body {
-  background: #482d81;
-  height: 100vh;
-}
-
-.wrapper span {
-  position: fixed;
-  bottom: -180px;
-  height: 20px;
-  width: 20px;
-  z-index: -1;
-  background-color: #5840a8;
-  box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
-  animation: animate 20s linear infinite;
-}
-
-.wrapper span:nth-child(1) {
-  left: 60px;
-  animation-delay: 0.6s;
-}
-
-.wrapper span:nth-child(2) {
-  left: 10%;
-  animation-delay: 3s;
-  width: 20px;
-  height: 20px;
-}
-
-.wrapper span:nth-child(3) {
-  left: 20%;
-  animation-delay: 2s;
-}
-
-.wrapper span:nth-child(4) {
-  left: 30%;
-  animation-delay: 5s;
-  width: 30px;
-  height: 30px;
-}
-
-.wrapper span:nth-child(5) {
-  left: 40%;
-  animation-delay: 1s;
-}
-
-.wrapper span:nth-child(6) {
-  left: 50%;
-  animation-delay: 7s;
-}
-
-.wrapper span:nth-child(7) {
-  left: 60%;
-  animation-delay: 6s;
-  width: 30px;
-  height: 30px;
-}
-
-.wrapper span:nth-child(8) {
-  left: 70%;
-  animation-delay: 8s;
-}
-
-.wrapper span:nth-child(9) {
-  left: 80%;
-  animation-delay: 6s;
-  width: 20px;
-  height: 20px;
-}
-
-.wrapper span:nth-child(10) {
-  left: 90%;
-  animation-delay: 4s;
-}
-
-/* .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.content h2 b {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #fff;
-  font-family: montserrat;
-  font-size: 80px;
-  text-transform: uppercase;
-  letter-spacing: 12px;
-} */
-
 @keyframes animate {
   0% {
     transform: translateY(0);
@@ -364,8 +273,6 @@ nav ul li a {
   display: inline-block;
   white-space:pre-wrap;
   border-right: 1px solid #000;
-  /* Add a blinking cursor effect */
-  /* animation: typing 5s steps(40, end), blink-caret 1s step-end infinite; */
   font-size: 24px;
   margin-bottom: 40px;
 
@@ -378,23 +285,6 @@ nav ul li a {
   }
   
 }
-
-/* @keyframes typing {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 90%;
-  }
-    from {
-    width: 0;
-  }
-
-  to {
-    width: 90%;
-  }
-} */
 
 @keyframes blink-caret {
 
@@ -440,15 +330,27 @@ nav ul li a {
 .About-us {
   font-size: larger;
   font-family: DM Sans;
+  /* background-image: url('white\ bg.jpg');
+  background-size: cover;
+  background-color: rgb(253, 252, 251,0.3);
+  background-repeat: no-repeat;
+  z-index: -1; */
+  
 }
 
-/* .container {
-  display: flex;
+
+#particles-js {
+  position: absolute;
   width: 100%;
-} */
+  height: 80%;
+  z-index: 1;
+  color: rgb(53, 57, 198);
+}
+
 
 .abt-text-container {
   margin-top: 40px;
+  z-index: 2;
   padding: 30px 50px 30px 0;
   flex: 1;
   font-family: DM Sans;
@@ -456,15 +358,15 @@ nav ul li a {
 
 #abtus {
   text-align: center;
-  
+
 }
 
 #abtpara {
- font-size: 20px;
- align-content: space-between;
- text-align: justify;
- line-height: 27px;
- word-spacing: 5px;
+  font-size: 20px;
+  align-content: space-between;
+  text-align: justify;
+  line-height: 27px;
+  word-spacing: 5px;
 }
 
 @media (max-width: 768px) {
@@ -473,12 +375,12 @@ nav ul li a {
     font-size: 15px;
     word-spacing: normal;
   }
+
   .abt-text-container {
     padding: 0;
   }
-  #readmorebtn{
 
-  }
+  #readmorebtn {}
 }
 
 .image-container {
@@ -505,6 +407,29 @@ nav ul li a {
   border: none;
 }
 
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  width: 100%;
+  height: 80%;
+  background-color: transparent;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 /* Projects section styles */
 #ReasearchPrj {
  font-size: larger;
@@ -521,7 +446,11 @@ nav ul li a {
   padding: 20px 0 50px 0;
   background: rgb(162, 197, 226, 0.6);
   box-shadow: 2px 0 2px #818181;
+  position: relative;
+  overflow: hidden;
 }
+
+
 
 .card {
  margin: 25px;
@@ -537,7 +466,9 @@ nav ul li a {
 }
 
 .card:hover {
-  background-color: rgb(84, 133, 135);
+  background-color: rgb(120,
+      128,
+      181, 0.75);
   transform: translateY(-5px);
   font-size: larger;
   color: white; 
@@ -598,7 +529,6 @@ nav ul li a {
 }
 
 .card {
-  /* Your existing card styles here */
   position: relative;
 }
 
@@ -608,7 +538,6 @@ nav ul li a {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  /* Center the link text */
 }
 
 
