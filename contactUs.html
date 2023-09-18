@@ -1,232 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Contact Us</title>
- <link rel="stylesheet" href="styles.css">
- <link rel="stylesheet" href="css/bootstrap.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contactus.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
- <style>
-  .contactsection {
-   background: rgba(124, 122, 155, 0.3);
-   /* background: rgb(237, 253, 247) ; */
-   /* background: rgb(147, 190, 223,0.5); */
-  }
+  <style>
+    .contactsection {
+      background: rgba(140, 223, 207, 0.2);
+    /* background: rgb(237, 253, 247) ; */
+    /* background: rgb(147, 190, 223,0.5); */
+    }
+    
+
+
+    /* Custom CSS to style the layout */
+    .form-group {
+      display: flex;
+      align-items:start;
+      justify-content: left;
+      text-align: left;
+    }
   
-
-
-  /* Custom CSS to style the layout */
-  .form-group {
-   display: flex;
-   align-items:start;
-   justify-content: left;
-   text-align: left;
-  }
- 
-  .form-group label {
-   width: 30%;
-   margin-right: 10px;
-   background-color: white;
-  }
- 
-  .message-group {
-   display: flex;
-  }
- 
-  .message-group textarea {
-   flex: 1;
-   margin-left: 40px;
-  }
- </style>
+    .form-group label {
+      width: 30%;
+      margin-right: 10px;
+      background-color: white;
+    }
+  
+    .message-group {
+      display: flex;
+    }
+  
+    .message-group textarea {
+      flex: 1;
+      margin-left: 40px;
+    }
+  </style>
 </head>
 <body>
- <header>
-  <nav class="navbar navbar-expand-lg navbar-light">
-   <div class="container">
-    <a href="index.html" class="navbar-brand" id="brand"> <img src="Logo.png" alt="Logo"
-        style="width: 100px; height: 120px;"></a>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand" id="brand"> <img src="Logo.png" alt="Logo"
+          style="width: 100px; height: 120px;"></a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
-     aria-label="Expand Navigation"><span class="navbar-toggler-icon"></span></button>
-    
-    <div class="collapse navbar-collapse" id="nav">
-     <ul class="navbar-nav">
-      <li class="nav-item" id="hm">
-       <a href="index.html" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item" id="abt">
-       <a href="about.html" class="nav-link">About</a>
-      </li>
-      <li class="nav-item" id="mem">
-       <a href="members.html" class="nav-link">Teams</a>
-      </li>
-      <li class="nav-item" id="proj">
-       <a href="projects.html" class="nav-link">Projects</a>
-      </li>
-     
-      <li class="nav-item" id="contact">
-       <a href="contactUs.html" class="nav-link active" aria-current="page" style="font-weight: bold;">Contact Us</a>
-      </li>
-     
-     </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+      aria-label="Expand Navigation"><span class="navbar-toggler-icon"></span></button>
+      
+      <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav">
+        <li class="nav-item" id="hm">
+        <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item" id="abt">
+        <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item" id="mem">
+        <a href="members.html" class="nav-link">Teams</a>
+        </li>
+        <li class="nav-item" id="proj">
+        <a href="projects.html" class="nav-link">Projects</a>
+        </li>
+      
+        <li class="nav-item" id="contact">
+        <a href="contactUs.html" class="nav-link active" aria-current="page" style="font-weight: bold;">Contact Us</a>
+        </li>
+      
+      </ul>
 
-    </div>
-   </div>
-  
-  </nav>
- </header>
-
- <main class="contactsection">
-  <h1 style="padding: 50px 0 10px 0; text-align: center;">Get in Touch ! </h1>
-  <p style="text-align: center; font-size: large; font:larger">contact us for more information</p>
-
-  <div class="contactIcons" style="text-align: center; font-size: 50px; padding-bottom: 30px;">
-   <div class="row">
-
-    <div class="col-lg-4 col-md-6 col-sm-6">
-     <div class="contactinfo">
-      <div class="icon">
-       <i class="fas fa-envelope" style="padding: 20px 30px 10px 10px;"></i>
       </div>
-      <p style="font-size: large;"><a href="mailto:Safa.Otoum@zu.ac.ae" style="text-decoration: none;">Safa.Otoum@zu.ac.ae</a></p>
-     </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-sm-6">
-     <div class="contactinfo">
-      <div class="icon">
-       <i class="fas fa-phone" style="padding: 20px 30px 10px 10px;"></i>
-      </div>
-      <p style="font-size: large;">+971 2 599 3846</p>
-     </div>
-
     </div>
     
-    <div class="col-lg-4 col-md-6 col-sm-6">
-     <div class="contactinfo">
-      <div class="icon">
-       <i class="fas fa-map-marker-alt" style="padding: 20px 30px 10px 10px; font-size: 60px;"></i>
-      </div>
-      <p style="font-size: large;"><a href="#" style="text-decoration: none;">map</a></p>
-     </div>
-    </div>
+    </nav>
+  </header>
 
-   </div>
-  
-  </div>
+  <main class="contactsection">
+        <div id="particles-js"></div>
 
-  <div class="container-md">
-   <form novalidate >
+    <h1 style="padding: 50px 0 10px 0; text-align: center;">Get in Touch ! </h1>
+    <p style="text-align: center; font-size: large; font:larger">contact us for more information</p>
+
+    <div class="contactIcons" style="text-align: center; font-size: 50px; padding-bottom: 30px;">
     <div class="row">
-     <div class="col-lg-6 col-sm-12">
-      <div class="form-group" style="margin: 10px 0 0 50px; height: 50px;">
-       <input type="text" id="name" class="form-control" placeholder="Enter your name..." required />
-       <label for="name" class="form-label"></label>
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="contactinfo">
+        <div class="icon">
+        <i class="fas fa-envelope" style="padding: 20px 30px 10px 10px;"></i>
+        </div>
+        <p style="font-size: large;"><a href="mailto:Safa.Otoum@zu.ac.ae" style="text-decoration: none;">Safa.Otoum@zu.ac.ae</a></p>
+      </div>
       </div>
 
-      <div class="form-group" style="margin: 0 0 0 50px;">
-       <input type="email" id="email" class="form-control" placeholder="Enter your email.." required />
-       <label for="email"></label>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="contactinfo">
+        <div class="icon">
+        <i class="fas fa-phone" style="padding: 20px 30px 10px 10px;"></i>
+        </div>
+        <p style="font-size: large;">+971 2 599 3846</p>
       </div>
-     </div>
 
-     <div class="col-lg-6 col-sm-12">
-      <div class="form-group">
-       <textarea style="margin: 10px 0 0 50px; height: 100px;" id="message" class="form-control" placeholder="Enter your message..." required></textarea>
-       <label for="name" class="form-label"></label>
-      </div>  
-     </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="contactinfo">
+        <div class="icon">
+        <i class="fas fa-map-marker-alt" style="padding: 20px 30px 10px 10px; font-size: 60px;"></i>
+        </div>
+        <p style="font-size: large;"><a href="#" style="text-decoration: none;">map</a></p>
+      </div>
+      </div>
 
-    </div>
- 
-
-    <div class="d-flex justify-content-center">
-     <button type="submit" class="cta-button" id="submit" style="margin: 40px; ; border: none; ">Submit</button>
     </div>
     
-   </form>
-
-  </div>
- 
- </main>
-
- <footer>
-  <div class="footer-container">
-   <!-- <div class="row">
-    <div class="col-md-4 text-sm">
-     <div class="logofoot">
-      <div id="logo">
-       <h1>Logo</h1>
-       <p>
-        Lorem ipsum dolor sit amet, <br> et nec nostrud eruditi. <br> Ius explicari omittantur at, <br> ea error singulis
-        mei, no vix .
-       </p>
-      </div>
-     </div>
- 
     </div>
- 
-    <div class="col-md-4 text-center text-sm">
-     <div id="support">
-      <h1>Support</h1>
-      <p">
-       Privacy and Policy
-       <br>Terms & Conditions
-       <br>Contact us
-       </p>
-     </div>
- 
-    </div>
- 
-    <div class="col-md-4 text-center text-sm">
-     <div id="contactus">
-      <h1>Contact Us</h1>
-      <div class="contacticons">
-       <a href="#"><i class="fas fa-phone" style="padding: 10px 0 20px 0; "> 03982427645346</i></a>
-       <br>
-       <a href="#"><i class="fas fa-envelope"> bashgad@gmail.com</i></a>
-      </div>
-      <div class="social-icons" style="padding: 30px 50px 0 0;">
-       <a href="#"><i class="fab fa-facebook-f"></i></a>
-       <a href="#"><i class="fab fa-twitter"></i></a>
-       <a href="#"><i class="fab fa-instagram"></i></a>
-       <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-     </div>
- 
-    </div>
- 
-   </div>
- 
-  </div> -->
-  <div class="row">
-   <div class="col-sm-12 text-sm text-center">
-    <p>&copy; 2023 Sam AI Solutions. All Rights Reserved..</p>
- 
-   </div>
- 
-  </div>
- 
- </footer>
- 
- <script src="script.js">
- </script>
-<script>jQuery.noConflict();</script>
 
- <script src="js/bootstrap.js"></script>
+    <div class="container-md">
+    <form novalidate >
+      <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <div class="form-group" style="margin: 10px 0 0 50px; height: 50px;">
+        <input type="text" id="name" class="form-control" placeholder="Enter your name..." required />
+        <label for="name" class="form-label"></label>
+        </div>
+
+        <div class="form-group" style="margin: 0 0 0 50px;">
+        <input type="email" id="email" class="form-control" placeholder="Enter your email.." required />
+        <label for="email"></label>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-12">
+        <div class="form-group">
+        <textarea style="margin: 10px 0 0 50px; height: 100px;" id="message" class="form-control" placeholder="Enter your message..." required></textarea>
+        <label for="name" class="form-label"></label>
+        </div>  
+      </div>
+
+      </div>
+  
+
+      <div class="d-flex justify-content-center">
+      <button type="submit" class="cta-button" id="submit" style="margin: 40px; ; border: none; ">Submit</button>
+      </div>
+      
+    </form>
+
+    </div>
+  
+  </main>
+
+  <footer>
+    <div class="footer-container">
+    <!-- <div class="row">
+      <div class="col-md-4 text-sm">
+      <div class="logofoot">
+        <div id="logo">
+        <h1>Logo</h1>
+        <p>
+          Lorem ipsum dolor sit amet, <br> et nec nostrud eruditi. <br> Ius explicari omittantur at, <br> ea error singulis
+          mei, no vix .
+        </p>
+        </div>
+      </div>
+  
+      </div>
+  
+      <div class="col-md-4 text-center text-sm">
+      <div id="support">
+        <h1>Support</h1>
+        <p">
+        Privacy and Policy
+        <br>Terms & Conditions
+        <br>Contact us
+        </p>
+      </div>
+  
+      </div>
+  
+      <div class="col-md-4 text-center text-sm">
+      <div id="contactus">
+        <h1>Contact Us</h1>
+        <div class="contacticons">
+        <a href="#"><i class="fas fa-phone" style="padding: 10px 0 20px 0; "> 03982427645346</i></a>
+        <br>
+        <a href="#"><i class="fas fa-envelope"> bashgad@gmail.com</i></a>
+        </div>
+        <div class="social-icons" style="padding: 30px 50px 0 0;">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+  
+      </div>
+  
+    </div>
+  
+    </div> -->
+    <div class="row">
+    <div class="col-sm-12 text-sm text-center">
+      <p>&copy; 2023 Sam AI Solutions. All Rights Reserved..</p>
+  
+    </div>
+  
+    </div>
+  
+  </footer>
+ 
+  <script src="script.js"></script>
+  <script src="js/bootstrap.js"></script>
 <!-- Javascript eventlistener to throw error if users try to submit with no or incorrdect details -->
- <script>
-  const form = document.querySelector("form")
+  <script>
+    const form = document.querySelector("form")
 
-  form.addEventListener('submit', e => {
-   if (!form.checkValidity()) {
-    e.preventDefault()
-   }
-   form.classList.add('was-validated')
-  });
- </script>
- 
+    form.addEventListener('submit', e => {
+    if (!form.checkValidity()) {
+      e.preventDefault()
+    }
+    form.classList.add('was-validated')
+    });
+  </script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+
 </body>
 </html>
