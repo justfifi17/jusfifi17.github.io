@@ -1,323 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>About Us</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDS</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="ids.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+
+  
+
+    <!-- jQuery Library -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <!-- jQuery Mobile CSS -->
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css"> -->
+  <!-- jQuery Mobile JavaScript -->
+  <!-- <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script> -->
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <a href="index.html" class="navbar-brand" id="brand"> <img src="Logo.png" alt="Logo"
-            style="width: 100px; height: 120px;"></a>
+ <header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+   <div class="container">
+    <a href="index.html" class="navbar-brand" id="brand"> <img src="Logo.png" alt="Logo"
+        style="width: 100px; height: 120px;"></a>
+ 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+     aria-label="Expand Navigation"><span class="navbar-toggler-icon"></span></button>
+ 
+    <div class="collapse navbar-collapse" id="nav">
+     <ul class="navbar-nav">
+      <li class="nav-item" id="hm">
+       <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item" id="abt">
+       <a href="about.html" class="nav-link">About</a>
+      </li>
+      <li class="nav-item" id="mem">
+       <a href="projects.html" class="nav-link active" aria-current="page" style="font-weight: bold;">Projects</a>
+      </li>
+      <li class="nav-item" id="proj">
+       <a href="members.html" class="nav-link ">Teams</a>
+      </li>
+ 
+      <li class="nav-item" id="contact">
+       <a href="contactUs.html" class="nav-link">Contact Us</a>
+      </li>
+ 
+     </ul>
+ 
+    </div>
+ 
+ 
+   </div>
+ 
+  </nav>
+ </header>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
-          aria-label="Expand Navigation"><span class="navbar-toggler-icon"></span></button>
-        
-        <div class="collapse navbar-collapse" id="nav">
-          <ul class="navbar-nav">
-            <li class="nav-item" id="hm">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item" id="abt">
-              <a href="about.html" class="nav-link active" aria-current="page" style="font-weight: bold;">About</a>
-            </li>
-            <li class="nav-item" id="mem">
-              <a href="projects.html" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item" id="proj">
-              <a href="members.html" class="nav-link">Teams</a>
-            </li>
-          
-            <li class="nav-item" id="contact">
-              <a href="contactUs.html" class="nav-link">Contact Us</a>
-            </li>
-          
-          </ul>
-
+ <main>
+  <section class="ids">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 text-center">
+        <div class="project-logo image-fluid d-none d-md-block">
+          <img src="TII-logo.png" alt="TII comany logo" style="max-width: 200px; max-height: 200px;"></img>
         </div>
-    
-      
+        
+        
+
       </div>
-    
-    </nav>
-  </header>
+      <div class="col-lg-6 col-sm-12 text-center text-sm">
+        <h1  id="" style="padding: 40px 0 10px 0; ">An Adaptive AI-based Real-time Hybrid IDS</h1>
+        <h5 style="color: rgb(99, 98, 98);">Technology Innovation Institute (TII) - Zayed University
+          (ZU) Project</h5>
 
-
-  <main>
-    <!-- <div id="particles-js" style="height: 2500px;"></div> -->
-
-    <h1 class="text-center text-sm" style="padding: 30px;">Who We Are</h1>
-    <section>
-      <div class="container-lab">
-        <div class="row">
-          <div class=" col-lg-6 col-md-6 col-sm-12">
-            <div class="image-container">
-              <img src="team photos/tech team.jpg" alt="about us image"  id="animated-image" style="padding-left: 30px; margin-top: 40px; max-width: 600px; max-height: 350px;">
-            </div>
-          </div>
-          <div id="description-abt" class="col-lg-6 col-md-6 col-sm-12 text-sm">
-            <h2 style="color: #423FE5; padding-top: 40px; padding-bottom: 20px;">Samuel AI Solutions
-            </h2>
-            <p style="font-size: 20px; color: rgb(73, 73, 113);">Welcome to the Samuel AI Innovation Lab! The forefront of the artificial intelligence revolution. Named in honor of
-            Samuel, the visionary inventor of AI, our institution is dedicated to advancing the frontiers of artificial intelligence
-            and driving transformative change across industries.</p>
-            <p style="font-size: 20px; color: rgb(79, 79, 140);">Our lab is committed to upholding Samuel's legacy by pioneering innovative AI solutions that shape a brighter future for
-            all. In an era where AI has become an integral part of our lives, influencing industries, healthcare, finance, and
-            beyond, we are dedicated to pushing the envelope even further.</p>
-            <br>
-            
-            
-
-        </div>
-        <br>
-        
-        
-        <!-- <div id="particles-js"></div> -->
-        <div class="row">
-          <!-- <div id="particles-js"></div> -->
-          <div class="col text-center">
-            <hr style="color: #423FE5; margin: 30px;">
-            
-            <h2 style="color: #423FE5; padding: 30px;"> What We Do
-            </h2>
-            <p style="font-size:20px; padding-left: 30px; padding-right: 30px; color: rgb(77, 77, 139);">Here at the Samuel AI Innovation Lab, we harness the power of AI to design and develop groundbreaking solutions that
-            address some of the most complex challenges facing society today. Our team of talented researchers, engineers, and data
-            scientists works tirelessly to unlock the full potential of AI. We create intelligent systems that not only automate
-            tasks but also enhance human capabilities. Whether we are revolutionizing healthcare with AI-powered diagnostics, optimizing supply chains with predictive
-            analytics, or increasing the efficiency of autonomous vehicles, we are committed to driving innovation that makes a
-            tangible impact on the world.<br> <br>
-              At the Samuel AI Innovation Lab, we believe that the future is limited only by our imagination and our ability to
-              harness the incredible potential of AI. </p>
-          </div>
-          
-        </div>
-        
-        
-        
-                
-
-        <div class="row" >
-          <div class="col" style=" text-align: center;">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              </div>
-              <div class="carousel-inner" style="padding-top: 40px; padding-bottom: 20px;">
-                <div class="carousel-item active" style="background-color:rgb(104, 143, 216)">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Team</strong> <br>
-                  
-                    Our team is the heart and soul of the Samuel AI Innovation Lab. Comprising a diverse group of researchers, engineers,
-                    data scientists, and domain experts, we bring a wealth of knowledge and expertise to every project. Our commitment to
-                    collaboration and innovation is what sets us apart, allowing us to tackle some of the most pressing issues facing our
-                    world today</p>
-                </div>
-                <div class="carousel-item" style="background-color:cadetblue">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Approach</strong> <br>
-                  
-                    At our core, we believe in the responsible and ethical use of AI. Our approach emphasizes transparency, fairness, and
-                    bias mitigation in AI systems. We prioritize the development of AI that empowers individuals and organizations,
-                    creating
-                    solutions that enhance, rather than replace, human capabilities</p>
-                </div>
-                <div class="carousel-item" style="background-color:darksalmon">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Impact</strong> <br>
-                  
-                    Our work extends beyond the walls of our lab. We measure our success not just by the advanced technologies we create
-                    but
-                    by the positive impact we have on society. Our AI solutions are designed to revolutionize industries, improve
-                    healthcare, address environmental challenges, and contribute to a more sustainable and equitable world.</p>
-                </div>
-                <div class="carousel-item" style="background-color:rgba(210, 133, 210, 0.7)">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Mission</strong> <br>
-                
-                    Our mission is clear: to harness the power of artificial intelligence to solve complex challenges, enhance human
-                    potential, and foster ethical and sustainable AI practices. We strive to be at the forefront of AI research and
-                    development, consistently pushing the boundaries of what's possible. <br> <br></p>
-                </div>
-                <div class="carousel-item" style="background-color: rgb(218, 165, 32, 0.7)">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Vision</strong> <br>
-                
-                    The Samuel AI Innovation Lab is guided by a compelling vision of the future—a future where AI serves as a powerful force
-                    for good. We envision a world where AI-driven innovations are accessible to all, where ethical considerations are
-                    paramount, and where AI empowers individuals and organizations to reach new heights of achievement.</p>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
-                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
-                <span class="visually-hidden" >Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="row">
-          <div class="col text-center">
-            <h2 style="color: #423FE5; padding: 30px; ">Lab Vision</h2>
-            <p style="font-size:20px; padding-left: 30px; padding-right: 30px; color: rgb(77, 77, 139);">At the Samuel AI Innovation Lab, our vision is to be
-              the epicenter of AI-driven transformation, pioneering the
-              development of intelligent solutions that revolutionize industries, enhance human potential, and drive positive
-              societal
-              change.
-              <br>
-              We aspire to create a future where artificial intelligence seamlessly integrates into every facet of our lives,
-              becoming
-              an indispensable force for good. Our lab envisions a world where AI:
-              <br> <br>
-
-              <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-1 g-2" style="padding: 20px 0 20px 0;">
-                <div class="col">
-                  <div class="card h-100">
-                    <div class="card-body">
-                      <div>
-                        <img src="handshake-solid.svg" style="width: 40px; height: 40px; margin-bottom: 10px;"></img>
-                      </div>
-  
-                      <h5 class="card-title">Enhances Human Potential</h5>
-                      <p class="card-text "> We envision AI as a collaborator, augmenting human capabilities rather than
-                      replacing them.
-                      Our solutions empower individuals and organizations to achieve more, fostering a symbiotic relationship between humans
-                      and machines.</p>
-                      <br>
-                    
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-              
-                    <div class="card-body">
-                      <div>
-                        <img src="puzzle-piece-solid.svg" style="width: 40px; height: 40px; margin-bottom: 10px;"></img>
-                      </div>
-                      <h5 class="card-title">Solves Complex Challenges</h5>
-                      <p class="card-text">We are committed to tackling some of the world's most pressing issues,
-                      from healthcare
-                      breakthroughs that save lives to environmental innovations that preserve our planet. Our AI solutions will drive
-                      meaningful advancements across diverse fields.</p>
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <div class="card-body">
-                      <div>
-                        <img src="scale-balanced-solid.svg" style="width: 40px; height: 40px; margin-bottom: 10px;"></img>
-                      </div>
-                      <h5 class="card-title">Fosters Ethical AI</h5>
-                      <p class="card-text"> We are dedicated to the ethical development and deployment of AI. Our vision
-                      includes creating AI
-                      systems that are transparent, fair, and unbiased, ensuring they benefit all of humanity without discrimination. </p>
-                      <br>
-                  
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-              
-                    <div class="card-body">
-                      <div>
-                        <img src="book-open-solid.svg" style="width: 40px; height: 40px; margin-bottom: 10px;"></img>
-                      </div>
-                      <h5 class="card-title">Nurtures Continuous Learning</h5>
-                      <p class="card-text"> In our pursuit of excellence, we aim to cultivate a culture of
-                      perpetual learning and
-                      innovation. We believe that the rapid evolution of AI requires us to remain at the forefront of knowledge, adapting to
-                      emerging trends and technologies.
-                      </p>
-                    
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-          <br>        <br><br>
-
-        </div>
-        
-        <div class="row">
-          <br><br> <br>
-
-          <div class="col-lg-6 col-sm-12"> 
-            <hr style="color: #423FE5; margin: 30px;">
-         
-            <h2 style="color: #423FE5; padding: 30px;"> Join Us on the Journey!
-            </h2>
-            <p style="padding-left: 30px; font-size: 20px;color: rgb(77, 77, 139);">
-              We invite you to join us on this extraordinary journey of discovery and innovation. Together, we can shape a future
-              where the limitless possibilities of AI are realized for the benefit of all. Whether you are a collaborator, partner, or
-              simply curious about the potential of AI, we welcome you to be a part of the Samuel AI Innovation Lab community.
-              Together, we will continue to push the boundaries of what AI can achieve, honoring the legacy of Samuel and pioneering a
-              better world through artificial intelligence.
-            </p>
-
-            <div class="text-center text-sm" style=" display: flex; padding: 30px;">
-              <a href="contactUs.html" id="" class="cta-button"> Get in Touch</a>
-            </div>
-
-          </div>
-          <div class="col-6">
-            <div><img src="team.gif" alt="team image" class="image-fluid d-none d-md-block" id="team"
-              style="width: 500px; max-height: 400px; padding-top: 50px;"></div>
-            
-          
-          </div>
-          
-        </div>
       </div>
-      <!-- <div>
-        <a href="projects.html" id="" class="cta-button text-center" style="display: block; text-align: center;" >Our Projects</a>
-      
-      </div> -->
-      
-      
-      
+      <div class="col-lg-3 col-sm-6 text-center">
+        <div class="project-logo image-fluid d-none d-md-block">
+        <img src="zu_col-logo.png" alt="Zayed University logo" style="max-width: 200px; max-height: 170px; text-align: right; margin-left: 30px;"></img>
+        </div>
+        
+      </div>
+    </div>
+   
+   <div class="container-ids" style="margin-top: 50px;">
+    <div class="row">
+     <div class="col-md-6 text-sm" style="padding: 30px;">
+      <h2 style="color: #3634a8; font-weight: bold;"> Description </h2>
+      <p class="description" style="color: rgb(55, 55, 95); font-size: 18px;">
+      Malicious attacks have become more complex and frequent in recent years as IoT-based critical infrastructures (ex.
+      Autonomous Transport System (ATS)) have grown larger and encompass different areas of industry. Within the IoT systems
+      themselves, the addition of various types of devices being monitored and used on the overall IoT critical infrastructure
+      has also grown and become more diverse [1]. Sensors for monitoring systems to large devices are all part of the IoTs
+      [2][3]. We have also seen a growth in intelligent transport systems (ITS) usage through the utilization of vehicular
+      network architecture. In the healthcare space, we have seen an increase in IoT medical devices. With all these
+      components now becoming prominent, there is a need for proper monitoring. The large array of devices that are
+      controlled, monitored, or used produces networks that are full of security breaches.
+      </p>
 
-    </section>
-  </main>
+      <hr style="color: #423FE5; margin: 30px;">
+      
+   
+     </div>
+     <!-- end of col -->
+     <div class="col-md-6" style="padding-top: 30px;">
+      <div class="image-container d-none d-sm-block">
+       <img src="ids.jpg" alt="ids-image" class="image-fluid" style="width: 500px; height: 300px; padding-top: 20px;">
+      </div>
+      
+     </div>
+   
+    </div>
 
-  <footer>
-    <div class="footer-container">
 
     <div class="row">
-      <div class="col-sm-12 text-sm text-center">
-        <p>&copy; 2023 Sam AI Solutions. All Rights Reserved.</p>
+      <div class="col">
+        <div class="image-container d-none d-sm-block" style="padding-top: 20px;">
+          <img src="fl.png" alt="ids-image2" class="image-fluid" style="height: 300px;">
+        </div>
+      </div>
+      <div class="col text-sm" style="padding: 20px;">
+        <p class="description" style="color: rgb(55, 55, 95); font-size: 18px;">
+          Cybersecurity and privacy of these networks are of prime concern for the deployment and the successful adoption in
+          critical infrastructures. Network Intrusion has the potential to cause long-term damage to critical infrastructures’
+          network security and sensitive data. The intrusion Detection System as a whole is a system that monitors network
+          traffic
+          for suspicious activity and issues alert when such activity is discovered. It is a structure that manages many
+          different
+          subsystems such as transportation, home, or business systems. Given this, many researchers develop IDS that are
+          application-specific for the components in the network they are trying to protect.
+      
+          <hr style="color: #423FE5; margin: 30px;">
+
+        </p>
 
       </div>
-
-    </div>
     </div>
 
+    <div class="row">
+        <div class="col">
+          <p class="description" style="color: rgb(55, 55, 95); font-size: 18px;padding: 30px;">On the other hand, the advances in cellular, wireless, Bluetooth, or LAN are all distributed networks that give way to
+          connecting many IoT devices. Malicious users will always take advantage of any weak point in the network, seeing as IoT
+          devices can be connected to different types of network infrastructure they become the prime access point for attack.
+          Specifically, in ATS, an IoT edge device that is connected both to Bluetooth and the main LAN infrastructure becomes an
+          easy gateway to infiltrate. Similarly, futuristic technologies such as machines, federated, and distributed Learning,
+          and Blockchain are revolutionizing the system security solutions for their endless benefits of enhancing the system’s
+          intelligence and speeding up the computation process.</p>
+        </div>
+        <div class="col">
+          <div class="container mt-5">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="false" aria-controls="collapseOne">
+                    Adaptive in Terms of..
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>1. Adaptively Supervised and Clustered Hybrid Intrusion
+                      Detection System (ASCH-IDS) to classify the collected data from IoT devices. <br> <br>
+                      2. Gathered traffic is directed into two ML learning-based subsystems namely misuse detection subsystem
+                      (signature-based) and anomaly detection subsystem. <br> <br>
+                      3. The former is effective in the detection of known attacks whereas the latter is effective in detecting
+                      unknown
+                      attacks. <br> <br>
+                      4. The proposed scheme dynamically adjusts data allocation between two subsystems based on their Receiver
+                      Operating
+                      Characteristics (ROC) behavior.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Hybrid in terms of..
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>1. Host-based IDS (IoT, AV, UAV) and Network-based IDS (NIDS). <br> <br>
+                      2. For both Anomaly and Signature-based detection. <br> <br>
+                      3. Works with all OS (Linux, Unix, Windows, and Mac).
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What are the important features that make it novel?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p> <strong>1. Comprehensive Detection:</strong> Hybrid IDS identifies various intrusion types, including
+                      anomalies and known signatures. <br> <br>
+          
+                      <strong>2. Immediate Alerts:</strong> It promptly notifies administrators of detected threats in real-time.
+                      <br> <br>
+          
+                      <strong>3. Proactive Defense:</strong> Capable of taking actions like blocking specific traffic to mitigate
+                      threats. <br> <br>
+          
+                      <strong>4. Data Source Trust:</strong> Provides trust indicators for data sources, aiding in prioritizing
+                      security measures. <br> <br>
+          
+                      <strong>5. Reduced False Positives:</strong> Improves detection accuracy by minimizing false-positive
+                      alerts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>  
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+      
+          <div class="content show" id="tab_1_content">
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="nav nav-tabs justify-content-center" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one"
+                      aria-selected="true">Members</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two"
+                      aria-selected="false">Citation</a>
+                  </li>
+                </ul>
+      
+                <div class="tab-content" id="tabsContent">
+                  <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+                    <div class="container" style="padding-left: 70px; margin-top: 10px;color: rgb(71, 71, 92);">
+                      <p> Dr. Bassem Ouni, Bassem Ouni, TII, UAE
+                       <br> Dr. Muhammad Asad, Zayed University, UAE <br> Thomas Petros, ZU, UAE <br>
+                      Thomas Mengsteab, ZU, UAE <br>
+                      Mehdi Letafati, University of Oulu, Finland <br>
+                      Saron Bokretsion, ZU, UAE <br>
+                      Fithi Fessehatsion, ZU, UAE <br>
+                      Belsabel Teklemariam, ZU, UAE <br>
+                      Selam Mekonen, ZU, UAE </p>
+                    </div>
+                  </div>
+      
+                  <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                    <div class="container" style="padding-left: 70px; margin-top: 10px;">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Fugiat, mollitia accusantium optio
+                        aspernatur
+                        tempore, commodi molestias architecto officiis iusto excepturi explicabo.
+                        <br> Impedit nesciunt vel et vitae consequatur iste error assumenda.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+</main>
+  <footer>
+    <div class="footer-container">
+      <!-- <div class="row">
+      <div class="col-md-4 text-sm">
+        <div class="logofoot">
+        <div id="logo">
+          <h1>Logo</h1>
+          <p>
+          Lorem ipsum dolor sit amet, <br> et nec nostrud eruditi. <br> Ius explicari omittantur at, <br> ea error singulis
+          mei, no vix .
+          </p>
+        </div>
+        </div>
+    
+      </div>
+    
+      <div class="col-md-4 text-center text-sm">
+        <div id="support">
+        <h1>Support</h1>
+        <p">
+          Privacy and Policy
+          <br>Terms & Conditions
+          <br>Contact us
+          </p>
+        </div>
+    
+      </div>
+    
+      <div class="col-md-4 text-center text-sm">
+        <div id="contactus">
+        <h1>Contact Us</h1>
+        <div class="contacticons">
+          <a href="#"><i class="fas fa-phone" style="padding: 10px 0 20px 0; "> 03982427645346</i></a>
+          <br>
+          <a href="#"><i class="fas fa-envelope"> bashgad@gmail.com</i></a>
+        </div>
+        <div class="social-icons" style="padding: 30px 50px 0 0;">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        </div>
+    
+      </div>
+    
+      </div>
+    
+    </div> -->
+    <div class="row">
+      <div class="col-sm-12 text-sm text-center">
+      <p>&copy; 2023 Sam AI Solutions. All Rights Reserved.</p>
+    
+      </div>
+    
+    </div>
+  
   </footer>
 
-<script src="script.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="particles.js"></script>
-<script src="app2.js"></script>
+  <!-- <script>jQuery.noConflict();</script> -->
+  <script src="js/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
- 
+
 </body>
 </html>
