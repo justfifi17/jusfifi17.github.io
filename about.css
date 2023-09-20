@@ -4,6 +4,12 @@
   text-align: center;
 } 
 
+.getintouch {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 
 
 #mission {
