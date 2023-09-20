@@ -1,323 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>About Us</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="about.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-</head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <a href="index.html" class="navbar-brand" id="brand"> <img src="Logo.png" alt="Logo"
-            style="width: 100px; height: 120px;"></a>
+@media (max-width: 768px) {
+ .container-lab{
+  padding: 2px;
+  text-align: center;
+} 
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
-          aria-label="Expand Navigation"><span class="navbar-toggler-icon"></span></button>
-        
-        <div class="collapse navbar-collapse" id="nav">
-          <ul class="navbar-nav">
-            <li class="nav-item" id="hm">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item" id="abt">
-              <a href="about.html" class="nav-link active" aria-current="page" style="font-weight: bold;">About</a>
-            </li>
-            <li class="nav-item" id="mem">
-              <a href="projects.html" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item" id="proj">
-              <a href="members.html" class="nav-link">Teams</a>
-            </li>
-          
-            <li class="nav-item" id="contact">
-              <a href="contactUs.html" class="nav-link">Contact Us</a>
-            </li>
-          
-          </ul>
-
-        </div>
-    
-      
-      </div>
-    
-    </nav>
-  </header>
-
-
-  <main>
-    <!-- <div id="particles-js" style="height: 2500px;"></div> -->
-
-    <h1 class="text-center text-sm" style="padding: 30px;">Who We Are</h1>
-    <section>
-      <div class="container-lab">
-        <div class="row">
-          <div class=" col-lg-6 col-md-6 col-sm-12">
-            <div class="image-container">
-              <img src="team photos/tech team.jpg" alt="about us image"  id="animated-image" style="padding-left: 30px; margin-top: 40px; max-width: 600px; max-height: 350px;">
-            </div>
-          </div>
-          <div id="description-abt" class="col-lg-6 col-md-6 col-sm-12 text-sm">
-            <h2 style="color: #423FE5; padding-top: 40px; padding-bottom: 20px;">Samuel AI Solutions
-            </h2>
-            <p style="font-size: 20px; color: rgb(73, 73, 113);">Welcome to the Samuel AI Innovation Lab! The forefront of the artificial intelligence revolution. Named in honor of
-            Samuel, the visionary inventor of AI, our institution is dedicated to advancing the frontiers of artificial intelligence
-            and driving transformative change across industries.</p>
-            <p style="font-size: 20px; color: rgb(79, 79, 140);">Our lab is committed to upholding Samuel's legacy by pioneering innovative AI solutions that shape a brighter future for
-            all. In an era where AI has become an integral part of our lives, influencing industries, healthcare, finance, and
-            beyond, we are dedicated to pushing the envelope even further.</p>
-            <br>
-            
-            
-
-        </div>
-        <br>
-        
-        
-        <!-- <div id="particles-js"></div> -->
-        <div class="row">
-          <!-- <div id="particles-js"></div> -->
-          <div class="col text-center">
-            <hr style="color: #423FE5; margin: 30px;">
-            
-            <h2 style="color: #423FE5; padding: 30px;"> What We Do
-            </h2>
-            <p style="font-size:20px; padding-left: 30px; padding-right: 30px; color: rgb(77, 77, 139);">Here at the Samuel AI Innovation Lab, we harness the power of AI to design and develop groundbreaking solutions that
-            address some of the most complex challenges facing society today. Our team of talented researchers, engineers, and data
-            scientists works tirelessly to unlock the full potential of AI. We create intelligent systems that not only automate
-            tasks but also enhance human capabilities. Whether we are revolutionizing healthcare with AI-powered diagnostics, optimizing supply chains with predictive
-            analytics, or increasing the efficiency of autonomous vehicles, we are committed to driving innovation that makes a
-            tangible impact on the world.<br> <br>
-              At the Samuel AI Innovation Lab, we believe that the future is limited only by our imagination and our ability to
-              harness the incredible potential of AI. </p>
-          </div>
-          
-        </div>
-        
-        
-        
-                
-
-        <div class="row" >
-          <div class="col" style=" text-align: center;">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              </div>
-              <div class="carousel-inner" style="padding-top: 40px; padding-bottom: 20px;">
-                <div class="carousel-item active" style="background-color:rgb(104, 143, 216)">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Team</strong> <br>
-                  
-                    Our team is the heart and soul of the Samuel AI Innovation Lab. Comprising a diverse group of researchers, engineers,
-                    data scientists, and domain experts, we bring a wealth of knowledge and expertise to every project. Our commitment to
-                    collaboration and innovation is what sets us apart, allowing us to tackle some of the most pressing issues facing our
-                    world today</p>
-                </div>
-                <div class="carousel-item" style="background-color:cadetblue">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Approach</strong> <br>
-                  
-                    At our core, we believe in the responsible and ethical use of AI. Our approach emphasizes transparency, fairness, and
-                    bias mitigation in AI systems. We prioritize the development of AI that empowers individuals and organizations,
-                    creating
-                    solutions that enhance, rather than replace, human capabilities</p>
-                </div>
-                <div class="carousel-item" style="background-color:darksalmon">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Impact</strong> <br>
-                  
-                    Our work extends beyond the walls of our lab. We measure our success not just by the advanced technologies we create
-                    but
-                    by the positive impact we have on society. Our AI solutions are designed to revolutionize industries, improve
-                    healthcare, address environmental challenges, and contribute to a more sustainable and equitable world.</p>
-                </div>
-                <div class="carousel-item" style="background-color:rgba(210, 133, 210, 0.7)">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Mission</strong> <br>
-                
-                    Our mission is clear: to harness the power of artificial intelligence to solve complex challenges, enhance human
-                    potential, and foster ethical and sustainable AI practices. We strive to be at the forefront of AI research and
-                    development, consistently pushing the boundaries of what's possible. <br> <br></p>
-                </div>
-                <div class="carousel-item" style="background-color: rgb(218, 165, 32, 0.7)">
-                  <p class="d-block w-80" style="font-size: 20px; padding: 30px;"> <strong>Our Vision</strong> <br>
-                
-                    The Samuel AI Innovation Lab is guided by a compelling vision of the future—a future where AI serves as a powerful force
-                    for good. We envision a world where AI-driven innovations are accessible to all, where ethical considerations are
-                    paramount, and where AI empowers individuals and organizations to reach new heights of achievement.</p>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
-                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
-                <span class="visually-hidden" >Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="row">
-          <div class="col text-center">
-            <h2 style="color: #423FE5; padding: 30px; ">Lab Vision</h2>
-            <p style="font-size:20px; padding-left: 30px; padding-right: 30px; color: rgb(77, 77, 139);">At the Samuel AI Innovation Lab, our vision is to be
-              the epicenter of AI-driven transformation, pioneering the
-              development of intelligent solutions that revolutionize industries, enhance human potential, and drive positive
-              societal
-              change.
-              <br>
-              We aspire to create a future where artificial intelligence seamlessly integrates into every facet of our lives,
-              becoming
-              an indispensable force for good. Our lab envisions a world where AI:
-              <br> <br>
-
-              <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-1 g-2" style="padding: 20px 0 20px 0;">
-                <div class="col">
-                  <div class="card h-100">
-                    <div class="card-body">
-                      <div>
-                        <img src="handshake-solid.svg" style="width: 40px; height: 40px; margin-bottom: 10px;"></img>
-                      </div>
-  
-                      <h5 class="card-title">Enhances Human Potential</h5>
-                      <p class="card-text "> We envision AI as a collaborator, augmenting human capabilities rather than
-                      replacing them.
-                      Our solutions empower individuals and organizations to achieve more, fostering a symbiotic relationship between humans
-                      and machines.</p>
-                      <br>
-                    
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-              
-                    <div class="card-body">
-                      <div>
-                        <img src="puzzle-piece-solid.svg" style="width: 40px; height: 40px; margin-bottom: 10px;"></img>
-                      </div>
-                      <h5 class="card-title">Solves Complex Challenges</h5>
-                      <p class="card-text">We are committed to tackling some of the world's most pressing issues,
-                      from healthcare
-                      breakthroughs that save lives to environmental innovations that preserve our planet. Our AI solutions will drive
-                      meaningful advancements across diverse fields.</p>
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <div class="card-body">
-                      <div>
-                        <img src="scale-balanced-solid.svg" style="width: 40px; height: 40px; margin-bottom: 10px;"></img>
-                      </div>
-                      <h5 class="card-title">Fosters Ethical AI</h5>
-                      <p class="card-text"> We are dedicated to the ethical development and deployment of AI. Our vision
-                      includes creating AI
-                      systems that are transparent, fair, and unbiased, ensuring they benefit all of humanity without discrimination. </p>
-                      <br>
-                  
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-              
-                    <div class="card-body">
-                      <div>
-                        <img src="book-open-solid.svg" style="width: 40px; height: 40px; margin-bottom: 10px;"></img>
-                      </div>
-                      <h5 class="card-title">Nurtures Continuous Learning</h5>
-                      <p class="card-text"> In our pursuit of excellence, we aim to cultivate a culture of
-                      perpetual learning and
-                      innovation. We believe that the rapid evolution of AI requires us to remain at the forefront of knowledge, adapting to
-                      emerging trends and technologies.
-                      </p>
-                    
-                    </div>
-                  </div>
-                </div>
-              </div>
+.getintouch {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 
 
 
-          <br>        <br><br>
+#mission {
+ padding:0 ;
+}
 
-        </div>
-        
-        <div class="row">
-          <br><br> <br>
+#mission p {
+ padding: 5px;
+}
 
-          <div class="col-lg-6 col-sm-12"> 
-            <hr style="color: #423FE5; margin: 30px;">
-         
-            <h2 style="color: #423FE5; padding: 30px;"> Join Us on the Journey!
-            </h2>
-            <p style="padding-left: 30px; font-size: 20px;color: rgb(77, 77, 139);">
-              We invite you to join us on this extraordinary journey of discovery and innovation. Together, we can shape a future
-              where the limitless possibilities of AI are realized for the benefit of all. Whether you are a collaborator, partner, or
-              simply curious about the potential of AI, we welcome you to be a part of the Samuel AI Innovation Lab community.
-              Together, we will continue to push the boundaries of what AI can achieve, honoring the legacy of Samuel and pioneering a
-              better world through artificial intelligence.
-            </p>
+#values {
+ padding:0;
+}
 
-            <div class="text-center text-sm" style=" display: flex; padding: 30px;">
-              <a href="contactUs.html" id="" class="cta-button"> Get in Touch</a>
-            </div>
+#values p {
+ padding: 5px;
+}
 
-          </div>
-          <div class="col-6">
-            <div><img src="team.gif" alt="team image" class="image-fluid d-none d-md-block" id="team"
-              style="width: 500px; max-height: 400px; padding-top: 50px;"></div>
-            
-          
-          </div>
-          
-        </div>
-      </div>
-      <!-- <div>
-        <a href="projects.html" id="" class="cta-button text-center" style="display: block; text-align: center;" >Our Projects</a>
-      
-      </div> -->
-      
-      
-      
+}
 
-    </section>
-  </main>
+.image-container p {
+  padding: 0;
+  width: 0;
+  text-align: center;
+}
 
-  <footer>
-    <div class="footer-container">
+#animated-image{
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.image-container {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
 
-    <div class="row">
-      <div class="col-sm-12 text-sm text-center">
-        <p>&copy; 2023 Sam AI Solutions. All Rights Reserved.</p>
+}
 
-      </div>
+img#animated-image {
+  max-width: none;
+  width: 100%;
+  transform: translateX(-100%);
+  animation: slideIn 2s ease-in forwards;
+}
 
-    </div>
-    </div>
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
 
-  </footer>
+  100% {
+    transform: none;
+  }
+}
 
-<script src="script.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="particles.js"></script>
-<script src="app2.js"></script>
+#team {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
 
- 
-</body>
-</html>
+}
+
+img#team {
+  max-width: none;
+  width: 100%;
+  transform: translateX(100%);
+  animation: slideIn2 2s ease-in forwards;
+}
+
+@keyframes slideIn2 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  color: rgb(53, 57, 198);
+}
