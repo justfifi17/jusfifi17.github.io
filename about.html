@@ -1,98 +1,349 @@
-@media (max-width: 768px) {
- .container-lab{
-  padding: 2px;
-  text-align: center;
-} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDS</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="ids.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
 
-.getintouch {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
+  
+
+    <!-- jQuery Library -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <!-- jQuery Mobile CSS -->
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css"> -->
+  <!-- jQuery Mobile JavaScript -->
+  <!-- <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script> -->
+</head>
+<body>
+ <header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+   <div class="container">
+    <a href="index.html" class="navbar-brand" id="brand"> <img src="Logo.png" alt="Logo"
+        style="width: 100px; height: 120px;"></a>
+ 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+     aria-label="Expand Navigation"><span class="navbar-toggler-icon"></span></button>
+ 
+    <div class="collapse navbar-collapse" id="nav">
+     <ul class="navbar-nav">
+      <li class="nav-item" id="hm">
+       <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item" id="abt">
+       <a href="about.html" class="nav-link">About</a>
+      </li>
+      <li class="nav-item" id="mem">
+       <a href="projects.html" class="nav-link active" aria-current="page" style="font-weight: bold;">Projects</a>
+      </li>
+      <li class="nav-item" id="proj">
+       <a href="members.html" class="nav-link ">Teams</a>
+      </li>
+ 
+      <li class="nav-item" id="contact">
+       <a href="contactUs.html" class="nav-link">Contact Us</a>
+      </li>
+ 
+     </ul>
+ 
+    </div>
+ 
+ 
+   </div>
+ 
+  </nav>
+ </header>
+
+ <main>
+  <section class="ids">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 text-center">
+        <div class="project-logo image-fluid d-none d-md-block">
+          <img src="TII-logo.png" alt="TII comany logo" style="max-width: 200px; max-height: 200px;"></img>
+        </div>
+        
+        
+
+      </div>
+      <div class="col-lg-6 col-sm-12 text-center text-sm">
+        <h1  id="" style="padding: 40px 0 10px 0; ">An Adaptive AI-based Real-time Hybrid IDS</h1>
+        <h5 style="color: rgb(99, 98, 98);">Technology Innovation Institute (TII) - Zayed University
+          (ZU) Project</h5>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 text-center">
+        <div class="project-logo image-fluid d-none d-md-block">
+        <img src="zu_col-logo.png" alt="Zayed University logo" style="max-width: 200px; max-height: 170px; text-align: right; margin-left: 30px;"></img>
+        </div>
+        
+      </div>
+    </div>
+   
+   <div class="container-ids" style="margin-top: 50px;">
+    <div class="row">
+     <div class="col-md-6 text-sm" style="padding: 30px;">
+      <h2 style="color: #3634a8; font-weight: bold;"> Description </h2>
+      <p class="description" style="color: rgb(55, 55, 95); font-size: 18px;">
+      Malicious attacks have become more complex and frequent in recent years as IoT-based critical infrastructures (ex.
+      Autonomous Transport System (ATS)) have grown larger and encompass different areas of industry. Within the IoT systems
+      themselves, the addition of various types of devices being monitored and used on the overall IoT critical infrastructure
+      has also grown and become more diverse [1]. Sensors for monitoring systems to large devices are all part of the IoTs
+      [2][3]. We have also seen a growth in intelligent transport systems (ITS) usage through the utilization of vehicular
+      network architecture. In the healthcare space, we have seen an increase in IoT medical devices. With all these
+      components now becoming prominent, there is a need for proper monitoring. The large array of devices that are
+      controlled, monitored, or used produces networks that are full of security breaches.
+      </p>
+
+      <hr style="color: #423FE5; margin: 30px;">
+      
+   
+     </div>
+     <!-- end of col -->
+     <div class="col-md-6" style="padding-top: 30px;">
+      <div class="image-container d-none d-sm-block">
+       <img src="ids.jpg" alt="ids-image" class="image-fluid" style="width: 500px; height: 300px; padding-top: 20px;">
+      </div>
+      
+     </div>
+   
+    </div>
 
 
+    <div class="row">
+      <div class="col-md-6">
+        <div class="image-container d-none d-sm-block" style="padding-top: 20px;">
+          <img src="fl.png" alt="ids-image2" class="image-fluid" style="height: 300px;">
+        </div>
+      </div>
+      <div class="col-12 col-md-6 text-sm" style="padding: 20px;">
+        <p class="description" style="color: rgb(55, 55, 95); font-size: 18px;">
+          Cybersecurity and privacy of these networks are of prime concern for the deployment and the successful adoption in
+          critical infrastructures. Network Intrusion has the potential to cause long-term damage to critical infrastructures’
+          network security and sensitive data. The intrusion Detection System as a whole is a system that monitors network
+          traffic
+          for suspicious activity and issues alert when such activity is discovered. It is a structure that manages many
+          different
+          subsystems such as transportation, home, or business systems. Given this, many researchers develop IDS that are
+          application-specific for the components in the network they are trying to protect.
+      
+          <hr style="color: #423FE5; margin: 30px;">
 
-#mission {
- padding:0 ;
-}
+        </p>
 
-#mission p {
- padding: 5px;
-}
+      </div>
+    </div>
 
-#values {
- padding:0;
-}
+    <div class="row">
+        <div class="col-12 col-md-6">
+          <p class="description" style="color: rgb(55, 55, 95); font-size: 18px;padding: 30px;">On the other hand, the advances in cellular, wireless, Bluetooth, or LAN are all distributed networks that give way to
+          connecting many IoT devices. Malicious users will always take advantage of any weak point in the network, seeing as IoT
+          devices can be connected to different types of network infrastructure they become the prime access point for attack.
+          Specifically, in ATS, an IoT edge device that is connected both to Bluetooth and the main LAN infrastructure becomes an
+          easy gateway to infiltrate. Similarly, futuristic technologies such as machines, federated, and distributed Learning,
+          and Blockchain are revolutionizing the system security solutions for their endless benefits of enhancing the system’s
+          intelligence and speeding up the computation process.</p>
+        </div>
+        <div class="col">
+          <div class="container mt-5">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="false" aria-controls="collapseOne">
+                    Adaptive in Terms of..
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>1. Adaptively Supervised and Clustered Hybrid Intrusion
+                      Detection System (ASCH-IDS) to classify the collected data from IoT devices. <br> <br>
+                      2. Gathered traffic is directed into two ML learning-based subsystems namely misuse detection subsystem
+                      (signature-based) and anomaly detection subsystem. <br> <br>
+                      3. The former is effective in the detection of known attacks whereas the latter is effective in detecting
+                      unknown
+                      attacks. <br> <br>
+                      4. The proposed scheme dynamically adjusts data allocation between two subsystems based on their Receiver
+                      Operating
+                      Characteristics (ROC) behavior.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Hybrid in terms of..
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>1. Host-based IDS (IoT, AV, UAV) and Network-based IDS (NIDS). <br> <br>
+                      2. For both Anomaly and Signature-based detection. <br> <br>
+                      3. Works with all OS (Linux, Unix, Windows, and Mac).
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What are the important features that make it novel?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p> <strong>1. Comprehensive Detection:</strong> Hybrid IDS identifies various intrusion types, including
+                      anomalies and known signatures. <br> <br>
+          
+                      <strong>2. Immediate Alerts:</strong> It promptly notifies administrators of detected threats in real-time.
+                      <br> <br>
+          
+                      <strong>3. Proactive Defense:</strong> Capable of taking actions like blocking specific traffic to mitigate
+                      threats. <br> <br>
+          
+                      <strong>4. Data Source Trust:</strong> Provides trust indicators for data sources, aiding in prioritizing
+                      security measures. <br> <br>
+          
+                      <strong>5. Reduced False Positives:</strong> Improves detection accuracy by minimizing false-positive
+                      alerts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-#values p {
- padding: 5px;
-}
+      </div>  
 
-}
+      <br><br><br>
 
-.image-container p {
-  padding: 0;
-  width: 0;
-  text-align: center;
-}
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+      
+          <div class="content show" id="tab_1_content">
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="nav nav-tabs justify-content-center" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one"
+                      aria-selected="true">Members</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two"
+                      aria-selected="false">Citation</a>
+                  </li>
+                </ul>
+      
+                <div class="tab-content" id="tabsContent">
+                  <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+                    <div class="container" style="padding-left: 70px; margin-top: 10px;color: rgb(71, 71, 92);">
+                      <p> Dr. Bassem Ouni, Bassem Ouni, TII, UAE
+                       <br> Dr. Muhammad Asad, Zayed University, UAE <br> Thomas Petros, ZU, UAE <br>
+                      Thomas Mengsteab, ZU, UAE <br>
+                      Mehdi Letafati, University of Oulu, Finland <br>
+                      Saron Bokretsion, ZU, UAE <br>
+                      Fithi Fessehatsion, ZU, UAE <br>
+                      Belsabel Teklemariam, ZU, UAE <br>
+                      Selam Mekonen, ZU, UAE </p>
+                    </div>
+                  </div>
+      
+                  <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                    <div class="container" style="padding-left: 70px; margin-top: 10px;">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Fugiat, mollitia accusantium optio
+                        aspernatur
+                        tempore, commodi molestias architecto officiis iusto excepturi explicabo.
+                        <br> Impedit nesciunt vel et vitae consequatur iste error assumenda.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
 
-#animated-image{
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-}
-.image-container {
-  overflow: hidden;
-  width: 100%;
-  height: auto;
+</main>
+  <footer>
+    <div class="footer-container">
+      <!-- <div class="row">
+      <div class="col-md-4 text-sm">
+        <div class="logofoot">
+        <div id="logo">
+          <h1>Logo</h1>
+          <p>
+          Lorem ipsum dolor sit amet, <br> et nec nostrud eruditi. <br> Ius explicari omittantur at, <br> ea error singulis
+          mei, no vix .
+          </p>
+        </div>
+        </div>
+    
+      </div>
+    
+      <div class="col-md-4 text-center text-sm">
+        <div id="support">
+        <h1>Support</h1>
+        <p">
+          Privacy and Policy
+          <br>Terms & Conditions
+          <br>Contact us
+          </p>
+        </div>
+    
+      </div>
+    
+      <div class="col-md-4 text-center text-sm">
+        <div id="contactus">
+        <h1>Contact Us</h1>
+        <div class="contacticons">
+          <a href="#"><i class="fas fa-phone" style="padding: 10px 0 20px 0; "> 03982427645346</i></a>
+          <br>
+          <a href="#"><i class="fas fa-envelope"> bashgad@gmail.com</i></a>
+        </div>
+        <div class="social-icons" style="padding: 30px 50px 0 0;">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        </div>
+    
+      </div>
+    
+      </div>
+    
+    </div> -->
+    <div class="row">
+      <div class="col-sm-12 text-sm text-center">
+      <p>&copy; 2023 Sam AI Solutions. All Rights Reserved.</p>
+    
+      </div>
+    
+    </div>
+  
+  </footer>
 
-}
-
-img#animated-image {
-  max-width: none;
-  width: 100%;
-  transform: translateX(-100%);
-  animation: slideIn 2s ease-in forwards;
-}
-
-@keyframes slideIn {
-  0% {
-    transform: translateX(-100%);
-  }
-
-  100% {
-    transform: none;
-  }
-}
-
-#team {
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-
-}
-
-img#team {
-  max-width: none;
-  width: 100%;
-  transform: translateX(100%);
-  animation: slideIn2 2s ease-in forwards;
-}
-
-@keyframes slideIn2 {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: none;
-  }
-}
+  <!-- <script>jQuery.noConflict();</script> -->
+  <script src="js/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  color: rgb(53, 57, 198);
-}
+</body>
+</html>
