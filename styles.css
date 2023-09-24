@@ -50,17 +50,24 @@ Lato  */
 
 /* Header styles */
 header {
-  background-color: rgba(20, 133, 208, 0.3);
+  position: fixed;
+  background-color: rgb(181, 224, 252);
   color: #fff;
   /* padding: 15px; */
   text-decoration-color: #f1f1f5;
   box-shadow: 0 0 2px #818181;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-#brand {
-  font-weight: bolder;
-  color: #f1f1f5;
-  font-size: 30px;
+body {
+  padding-top: 125px;
+}
+
+.body {
+  margin-top: 125px;
 }
 
 
@@ -91,7 +98,7 @@ header {
 }
 
 .logo {
-  font-size: 40px;
+  font-size: 10px;
   font-weight: bold;
   margin-right: 20px;
 }
@@ -540,10 +547,43 @@ canvas {
   text-align: center;
 }
 
+/* BACK TO TOP */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 4rem;
+  right: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+
+.back-to-top span {
+  color: black;
+  font-size: 3rem;
+  transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius:50px;
+}
+
+.back-to-top:hover span {
+  transform: translateY(-4px);
+}
+
 
 /* Footer styles */
 footer {
-  background-color: #507074;
+  background-color: rgb(64, 99, 122);
   color: #fff;
 }
 
