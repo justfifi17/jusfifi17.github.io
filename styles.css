@@ -563,6 +563,8 @@ html {
   padding: 0.5rem;
   text-decoration: none;
   transition: 0.2s ease-out;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50px;
 }
 
 .back-to-top span {
@@ -571,10 +573,7 @@ html {
   transition: 0.2s ease-out;
 }
 
-.back-to-top:hover {
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius:50px;
-}
+
 
 .back-to-top:hover span {
   transform: translateY(-4px);
@@ -596,45 +595,5 @@ footer {
   text-align: center;
 }
 
-/* #logo {
-  text-align: left;
-} */
 
-#logo p {
-  line-height: 30px;
-  padding: 10px 0 0 0;
 
-}
-
-#support {
-  text-align: center;
-}
-
-#support h1{
-  padding-bottom: 7px;
-}
-
-#support p{
-  line-height: 25px;
-}
-
-#contactus .social-icons {
-  margin-left: 10px;
-}
-
-#contactus .contacticons a {
-  color: #fff;
-  margin: 0 10px;
-  padding: 0 10px 20px 0;
-  font-size: 17px;
-  font-family: DM Sans;
-  font-weight: normal;
-  font-style: normal;
-}
-
-.social-icons a {
-  color: #fff;
-  margin: 0 4px 0 4px;
-  font-size: 20px;
-  padding-left: 5px;
-}
