@@ -10,7 +10,7 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#000"
+        "value": "#808080"
       },
       "shape": {
        "type": "triangle",
@@ -18,7 +18,7 @@ particlesJS('particles-js',
         // "type": ["triangle", "circle", "edge"],
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#808080"
         },
         "polygon": {
           "nb_sides": 5
