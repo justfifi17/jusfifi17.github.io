@@ -63,6 +63,7 @@ header {
 }
 
 body {
+  position: fixed;
   padding-top: 125px;
 }
 
