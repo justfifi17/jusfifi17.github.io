@@ -235,8 +235,9 @@ nav ul li a {
 
 
 .socialicons img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(2px 2px 2px rgba(126, 126, 126, 0.5));
   
 }
 
@@ -289,7 +290,7 @@ nav ul li a {
   #typing-text{
     text-align: center;
     font-family: 'DM Sans';
-    font-size: 15px;
+    font-size: 17px;
   }
   
 }
@@ -379,8 +380,8 @@ nav ul li a {
 
 @media (max-width: 768px) {
   #abtpara {
-    text-align: center;
-    font-size: 15px;
+    text-align: justify;
+    font-size: 16px;
     word-spacing: normal;
   }
 
@@ -587,6 +588,10 @@ footer {
   color: #fff;
 }
 
+/* .container {
+  display: flex;
+  width: 100%;
+}  */
 
 .logofoot {
   text-align: center;
