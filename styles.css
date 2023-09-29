@@ -146,19 +146,6 @@ nav ul li a {
   background-size: 0% 2px;
 }
 
-/* #contact a:hover {
-  color: #e8d127;
-} */
-
-/* #contact a {
- color: #f1f1f5;
- font-family: DM Sans;
- font-size: 20px;
- font-style: normal;
- font-weight: 500;
- line-height: normal;
-} */
-
 /* Hero section styles */
 .hero {
   height: fit-content;
@@ -216,10 +203,9 @@ nav ul li a {
   .text-container {
     padding: 0;
     text-align: center;
-    font-size: smaller;
   }
   .pic-container {
-    width: auto !important ;
+    max-width: 250px;
     margin-left: 10px;
     padding: 0;
   }
