@@ -1,4 +1,9 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', 'Times New Roman';
+}
 @keyframes animate {
   0% {
     transform: translateY(0);
@@ -27,7 +32,7 @@ h6 {
 }
 
 /* Body Text Font */
-p {
+body p {
   font-family: Dm Sans;
 }
 
@@ -53,6 +58,7 @@ header {
   left: 0;
   width: 100%;
 }
+
 
 body {
   margin: 0;
@@ -204,7 +210,7 @@ nav ul li a {
     padding: 0;
     text-align: center;
   }
-  .hero-content h1{
+  .hero h1{
     font-size: 20px;
   }
   .text-container {
@@ -282,6 +288,8 @@ nav ul li a {
 @media (max-width: 768px) {
   #typing-text{
     text-align: center;
+    font-family: 'DM Sans';
+    font-size: 15px;
   }
   
 }
@@ -300,7 +308,7 @@ nav ul li a {
 /* Bootstrap to adjust the naviagetion bar according to different sizes */
 @media (max-width: 992px) {
   .hero h1 {
-    font-size: 40px;
+    font-size: 25px;
     margin-bottom: 15px;
   }
 
@@ -318,8 +326,8 @@ nav ul li a {
     margin: 0;
     padding: 0;
     flex: 1;
-    max-width: 600px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 300px;
     display: flex;
   }
 }
@@ -579,10 +587,6 @@ footer {
   color: #fff;
 }
 
-/* .container {
-  display: flex;
-  width: 100%;
-}  */
 
 .logofoot {
   text-align: center;
