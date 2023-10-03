@@ -146,6 +146,7 @@ nav ul li a {
   background-size: 0% 2px;
 }
 
+
 /* Hero section styles */
 .hero {
   height: fit-content;
@@ -153,10 +154,6 @@ nav ul li a {
   text-align: left;
   flex-direction: column;
   background: conic-gradient(from 191deg at 20% 45.65%,#a2a5e2 3.3682815358042717deg, rgba(27, 144, 253, 0.4) 90.52163600921631deg, #c0c3f9 198.74999284744263deg, rgba(27, 144, 253, 0.4) 339.3749928474426deg);
-  /* background: conic-gradient(from 191deg at 20% 45.65%, rgba(20, 68, 113, 0.4) 3.3682815358042717deg, rgba(61,
-    112,
-    240,
-    0.6) 90.52163600921631deg, #8e83c9 198.74999284744263deg, rgba(129, 127, 201, 0.6) 339.3749928474426deg);*/
     box-shadow: 0 0 1px #666565;
   }
 
@@ -179,45 +176,10 @@ nav ul li a {
   color: #423FE5;
 }
 
-/* .hero p {
-  font-size: 24px;
-  margin-bottom: 40px;
-} */
 
 .pic-container {
   justify-content: right;
 }
-
-@media (max-width: 768px) {
-  .hero{
-    padding: 0;
-  }
-  .hero-content{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  .hero h1{
-    font-size: 20px;
-  }
-  .text-container {
-    padding: 0;
-    text-align: center;
-  }
-  .pic-container {
-    max-width: 250px;
-    margin-left: 10px;
-    padding: 0;
-  }
-  .socialicons{
-    width: auto;
-    align-content: center !important;
-    text-align: center;
-    align-items: center;
-    padding-bottom: 15px;
-  }
-}
-
 
 
 .socialicons img {
@@ -225,6 +187,44 @@ nav ul li a {
   height: 30px;
   filter: drop-shadow(2px 2px 2px rgba(126, 126, 126, 0.5));
   
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 0;
+  }
+
+  .hero-content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+
+  .text-container {
+    padding: 0;
+    text-align: center;
+    font-size: smaller;
+  }
+
+  
+
+  .socialicons {
+    width: auto;
+    align-content: center !important;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 15px;
+
+  }
+
+  .socialicons img {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 
@@ -277,6 +277,7 @@ nav ul li a {
     text-align: center;
     font-family: 'DM Sans';
     font-size: 17px;
+    margin-bottom: 20px;
   }
   
 }
@@ -366,7 +367,7 @@ nav ul li a {
 
 @media (max-width: 768px) {
   #abtpara {
-    text-align: justify;
+    text-align: center;
     font-size: 16px;
     word-spacing: normal;
   }
