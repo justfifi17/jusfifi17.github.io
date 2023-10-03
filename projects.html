@@ -1,71 +1,134 @@
-main {
- background-color: rgb(192,
-  169,
-  176,0.2);
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand" id="brand"> <img src="logo.png" alt="Logo"
+          style="width: 150px; height: 60px; margin: 10px;"></a>
 
-#projc {
- margin: 25px;
- border-radius: 5px;
- padding: 10px;
- /* background-color: #4d9ca0;
- background: rgba(135, 223, 208, 0.5); */
- box-shadow: 16px 14px 10px 0px rgba(0, 0, 0, 0.25);
- text-align: center;
- align-items: center;
- justify-content: center;
- transition: transform 0.6s ease-in-out, background-color 0.5s ease-in-out, font-size 0.3s ease-in-out, color 0.3s;
-}
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+      aria-label="Expand Navigation"><span class="navbar-toggler-icon"></span></button>
+      
+      <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav">
+        <li class="nav-item" id="hm">
+        <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item" id="abt">
+        <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item" id="mem">
+        <a href="projects.html" class="nav-link active" aria-current="page" style="font-weight: bold;">Projects</a>
+        </li>
+        <li class="nav-item" id="proj">
+        <a href="members.html" class="nav-link ">Teams</a>
+        </li>
+      
+        <li class="nav-item" id="contact">
+        <a href="contactUs.html" class="nav-link">Contact Us</a>
+        </li>
+      
+      </ul>
 
-.card:hover {
- background-color: rgb(120,
-  128,
-  181, 0.75);
- transform: translateY(-5px);
- font-size: larger;
- color: white;
-}
+      </div>
+    
+    
+    </div>
+    
+    </nav>
+  </header>
 
-.card h5 {
- font-size: 20px;
- padding: 10px;
- text-shadow: 2px #333;
-}
+<main>
+  <div id="particles-js"></div>
 
-.card-t {
- font-weight: bolder;
-}
 
-.card p {
- font-size: 17px;
- margin-bottom: 10px;
- line-height: 25px;
- /* text-align: center; */
-}
 
-.cta-txt {
- font-size: 15px;
- text-decoration: none;
- color: #333;
- font-weight: bold;
- cursor: pointer;
- margin-top: 5px;
- text-shadow: #333;
-}
+  <h1 class="text-center text-sm" id="" style="padding: 40px 0 30px 0; ">Projects</h1>
+  <div class="row row-cols-sm-1 row-cols-md-2 g-6 align-items-stretch" style="padding: 20px 40px 20px 40px;">
+    <div class="col">
+      <div class="card" id="projc" style="padding: 10px;">
+  
+        <div class="card-p">
+  
+          <h5 class="card-t"> An Adaptive AI-based Real-time Hybrid Intrusion Detection System (IDS)</h5>
+          <p class="card-txt">In a world where IoT-driven critical infrastructures, like the expansive Autonomous Transport Systems (ATS), have
+          become hotbeds for cyberattacks, a game-changing solution emerges: the Adaptive Hybrid Intrusion Detection System. Brace for a riveting journey into securing
+          diverse IoT networks against known and enigmatic threats.</p>
+          <p><a href="ids.html" class="cta-text">Learn More </a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" id="projc">
+  
+        <div class="card-p">
+          <h5 class="card-t">Leveraging Futuristic Technologies for Securing Smart Cities Networks in the era of 6G and beyond!</h5>
+          <p class="card-txt">Today's smart cities thrive on information technology leaps, including 5G and future 6G visions. IoT, Cloud, Edge, SDN
+          shape them. Amid progress, cybersecurity and privacy worries persist. Innovations like ML, blockchain enhance security.
+          This project focuses on crucial Smart Cities Networks security facets, expediting realization.</p>
+          <p><a href="proj.html" class="cta-text">Learn More </a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" id="projc">
+  
+        <div class="card-p">
+          <h5 class="card-t">Preventing and Controlling Epidemics in the UAE using an Intelligent Healthcare Framework</h5>
+          <p class="card-txt">The pandemic highlighted the role of tech in disease control. Movement tracking, powered by distributed networks,
+          transformed healthcare. Next-gen networking is vital for secure health data handling. AI-based networks reshape smart
+          healthcare for dynamic epidemics. Our project integrates solutions like Federated Learning, mobile edge computing, and
+          Blockchain. </p>
+          <p><a href="proj.html" class="cta-text">Learn More </a></p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" id="projc">
+  
+        <div class="card-p">
+          <h5 class="card-t">Project 4</h5>
+          <p class="card-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ut veniam quas itaque cumque quod dolor praesentium iste illo vel? Animi nesciunt iure numquam nisi quo quam recusandae, atque fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laudantium est vel quod perferendis quam, quidem harum dolorum, nesciunt praesentium natus quo vero rerum distinctio ipsa recusandae, quas ipsum quaerat?
+          </p>
+          </p>
+          <p><a href="proj.html" class="cta-text">Learn More </a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 80%;
-  z-index: -1;
 
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
+</main>
 
-@media (max-width: 768px) {
-  #particles-js {
-    display: none;
-  }
-}
+  <footer>
+    <div class="footer-container">
+
+    </div>
+    <div class="row">
+    <div class="col-sm-12 text-sm text-center">
+      <p>&copy; 2023 Sam AI Solutions. All Rights Reserved.</p>
+
+    </div>
+
+    </div>
+
+  </footer>
+
+<script src="script.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="particles.js"></script>
+<script src="app2.js"></script>
+
+</body>
+</html>
