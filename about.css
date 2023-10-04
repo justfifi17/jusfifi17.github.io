@@ -16,30 +16,22 @@
   overflow-y: auto;
 } }
 
-#carouselExampleIndicators {
-  height: 400px;
-  /* Adjust as needed */
-}
+
 
 .carousel-inner {
   height: 100%;
-  /* Ensure the inner content takes up full height */
 }
 
 .carousel-item {
   display: flex;
   align-items: center;
-  /* Center the content vertically */
   justify-content: center;
-  /* Center the content horizontally */
   text-align: center;
-  /* Center text content */
 }
 
 @media (max-width: 768px) {
   #carouselExampleIndicators {
     height: 450px;
-    /* Adjust as needed for small screens */
   }
 }
 
