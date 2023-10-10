@@ -191,7 +191,7 @@ nav ul li a {
 
 @media (max-width: 768px) {
   .hero {
-    padding: 0;
+    padding: 10px;
   }
 
   .hero-content {
